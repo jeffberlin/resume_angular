@@ -4,6 +4,7 @@
     <head profile="http://www.w3.org/TR/html4/strict.dtd">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Open Graph info -->
         <meta name="Description" content="Jeff Berlin's online resume! This was built using HTML, CSS, Javascript, and jQuery.">
         <meta name="Keywords" content="jeff, berlin, resume, online, github, html, css, javascript, jquery, south, carolina, north, hiring, developer, website, web, front, end, software, google, udacity, subaru, rally, linkedin, adobe, creative, suite, sketch, projects">
         <meta property="og:title" content="Jeff Berlin's Online Resume" />
@@ -13,11 +14,67 @@
         <meta property="og:type" content="image/jpg" />
         <link rel="icon" type="image/png" href="images/jb_favicon_32x32.png">
         <title>Jeff Berlin's Angular Resume</title>
+        <!-- Bootstrap 4 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <!-- Load CSS file -->
         <link href="css/style.css" rel="stylesheet"></link>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!-- Angular JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     </head>
     <body>
 
+        <div ng-app="resume" ng-controller="myResume">
+
+            <div class="header">
+
+                <nav class="navigation">
+
+                    <ul>
+                     
+                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div></li>
+
+                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div></li>
+
+                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+            
+            <div class="headshot text-center">
+
+                <img class="rounded-circle img-thumbnail" src="images/racing-min.jpg">
+
+                <h2>{{firstName}} {{lastName}}</h2>
+
+            </div>        
+            
+
+        </div>
+
+
+        <!-- Bootstrap 4 JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <!-- Load Angular JS file -->
         <script src="js/angular.js"></script>
 
     </body>
