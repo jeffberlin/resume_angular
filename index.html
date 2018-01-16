@@ -16,53 +16,69 @@
         <title>Jeff Berlin's Angular Resume</title>
         <!-- Bootstrap 4 CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <!-- Load Social Media icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Load CSS file -->
         <link href="css/style.css" rel="stylesheet"></link>
         <!-- Angular JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
     </head>
     <body>
 
         <div ng-app="resume" ng-controller="myResume">
 
-            <div class="header">
+            <header class="header container-fluid">
 
-                <nav class="navigation">
+                <div class="row justify-content-between">
 
-                    <ul>
-                     
-                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Phone</a>
-                          <a class="dropdown-item" href="#">Email</a>
-                          <a class="dropdown-item" href="#">LinkedIn</a>
-                        </div></li>
+                    <div class="media-icons col-lg-4 col-xs-12 text-center">
 
-                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Websites</a>
-                          <a class="dropdown-item" href="#">Design</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div></li>
+                        <ul class="social">
 
-                        <li><a href="#">Work</a></li>
+                            <li class="social-icon">
+                                <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://github.com/jeffberlin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://stackoverflow.com/story/jeff-berlin" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://angel.co/jeffrey-berlin-1" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://www.behance.net/emericajb8bf5d" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            </li>
 
-                    </ul>
+                        </ul>
 
-                </nav>
+                    </div>
 
-            </div>
-            
-            <div class="headshot text-center">
+                    <div class="col-lg-4 col-xs-12 text-center">
 
-                <img class="rounded-circle img-thumbnail" src="images/racing-min.jpg">
+                        <button class="download-btn">Download Resume</button>
 
-                <h1>{{firstName}} {{lastName}}</h1>
+                    </div>
 
-                <h3>{{headLine}}</h3>
+                </div>
 
-            </div>        
-            
+                <div class="headline container text-center">
+
+                    <div class="col align-self-center">
+
+                        <img class="headshot rounded-circle img-thumbnail" src="images/racing-min.jpg">
+
+                        <h1 class="name">{{firstName}} {{lastName}}</h1>
+
+                        <h3 class="tag">{{headLine}}</h3>
+
+                    </div>
+
+                </div>
+
+            </header>   
 
         </div>
 

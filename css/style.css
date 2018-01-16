@@ -1,6 +1,7 @@
 html, body {
 	overflow-x: hidden;
 	width: 100%;
+	text-align: inherit;
 }
 
 a, a:hover {
@@ -9,69 +10,64 @@ a, a:hover {
 	outline: none;
 }
 
+ul {
+	padding-left: 0;
+}
+
 .container-fluid {
 	padding: 0;
 }
 
-h1 {
-	font-family: "Uberhand Pro";
-	letter-spacing: .75px;
-	font-weight: 500;
-	font-size: 2.3rem;
-	margin-bottom: 0;
-}
-
-h3 {
-	color: grey;
-	opacity: .7;
-	font-family: "Viato";
-	font-weight: 300;
-	letter-spacing: .7px;
-}
-
-/* Header/nav area */
+/* Header area */
 
 .header {
-	background-color: #009688;
-	height: 15rem;
-	text-align: center;
+	background: linear-gradient(180deg, #009688 50%, #007b70 50%);
+	padding-bottom: 2rem;
+	padding-top: 3.5rem;
 }
 
-.navigation {
-	padding-top: 1.5rem;
-}
-
-.navigation ul {
+.social-icon {
 	list-style: none;
-	padding-left: 0;
-	margin-bottom: 0;
-}
-
-.navigation ul li {
 	display: inline-block;
-	padding: 1.5rem;
-	color: #ffffff;
-	letter-spacing: .75px;
+	padding: .3rem;
 }
 
-.dropdown-menu {
-	min-width: 3rem;
+.fa {
+	color: #ffffff;
+	font-size: 1.6rem;
+	opacity: .8;
 }
-.dropdown-item {
-	padding: .25rem 1rem;
+
+.phone {
+	color: #ffffff;
+	font-family: "Skolar Sans Latin";
+  	font-size: 1.1rem;
 }
 
 /* Headshot area */
 
 .headshot {
-	margin-top: -120px;
-	display: block;
-}
-
-.headshot img {
+	/*margin-top: -120px;*/
 	height: 15rem;
 	width: 15rem;
 }
+
+.name {
+	font-family: "Uberhand Pro";
+	letter-spacing: .75px;
+	font-weight: 500;
+	font-size: 2.3rem;
+	margin-bottom: 0;
+	margin-top: .6rem;
+	color: #ffffff;
+}
+
+.tag {
+	color: #b7b7b7;
+	font-family: "Viato-light";
+	letter-spacing: .7px;
+}
+
 
 @media (max-width: 360px) {
 
