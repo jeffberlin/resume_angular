@@ -38,16 +38,30 @@ ul {
 	opacity: .8;
 }
 
-.phone {
+.download-btn {
 	color: #ffffff;
 	font-family: "Skolar Sans Latin";
-  	font-size: 1.1rem;
+  	font-size: 12pt;
+  	background-color: #00635a;
+  	border: none;
+  	border-radius: .2rem;
+  	padding: .6rem;
+  	text-shadow: 0 1px 1px #04423c;
+  	cursor: pointer;
+  	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.download-btn:focus {
+	outline: none;
+}
+
+.download-btn:active {
+	transform: translateY(.1rem);
 }
 
 /* Headshot area */
 
 .headshot {
-	/*margin-top: -120px;*/
 	height: 15rem;
 	width: 15rem;
 }
@@ -66,12 +80,4 @@ ul {
 	color: #b7b7b7;
 	font-family: "Viato-light";
 	letter-spacing: .7px;
-}
-
-
-@media (max-width: 360px) {
-
-	.navigation ul {
-		font-size: 10pt;
-	}
 }
