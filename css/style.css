@@ -18,7 +18,7 @@ ul {
 	padding: 0;
 }
 
-.download-btn, .email, .phone {
+.download-btn, .email, .phone, #page-nav {
 	font-family: "Skolar Sans Latin";
 	color: #ffffff;
 }
@@ -59,7 +59,7 @@ ul {
 	outline: none;
 }
 
-.download-btn:active {
+.download-btn:active, .nav-item:active {
 	transform: translateY(.1rem);
 }
 
@@ -109,6 +109,29 @@ ul {
 
 .contact-info span {
 	margin-right: .8rem;
+}
+
+.page-nav {
+	background-color: #00635a;
+}
+
+#page-nav {
+	list-style: none;
+	margin-bottom: 0;
+	letter-spacing: 1.2px;
+	font-size: 14pt;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 1.4rem;
+}
+
+
+/* SKILLS section */
+
+.skills-info {
+	background-color: lightgrey;
 }
 
 @media (max-width: 767px) {
