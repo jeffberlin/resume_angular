@@ -97,6 +97,10 @@ ul {
 	letter-spacing: .75px;
 }
 
+.contact-info {
+	margin-bottom: 0;
+}
+
 .contact-info li {
 	list-style: none;
 	display: inline-block;
