@@ -21,9 +21,10 @@ ul {
 /* Header area */
 
 .header {
-	background: linear-gradient(180deg, #009688 50%, #007b70 50%);
-	padding-bottom: 2rem;
+	/*background: linear-gradient(180deg, #009688 50%, #007b70 50%);*/
+	background-color: #009688;
 	padding-top: 3.5rem;
+	padding-bottom: 8rem;
 }
 
 .social-icon {
@@ -61,7 +62,13 @@ ul {
 
 /* Headshot area */
 
+.headline {
+	background-color: #007b70;
+	padding-bottom: 3.5rem;
+}
+
 .headshot {
+	margin-top: -120px;
 	height: 15rem;
 	width: 15rem;
 }
@@ -80,4 +87,11 @@ ul {
 	color: #b7b7b7;
 	font-family: "Viato-light";
 	letter-spacing: .7px;
+}
+
+@media (max-width: 767px) {
+
+	.download-btn {
+		margin-bottom: 1.2rem;
+	}
 }
