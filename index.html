@@ -125,13 +125,22 @@
 
             </header>
 
-            <div class="skills-info">
+            <div class="about-info">
+
+                <div class="container">
                 
-                <h2>{{headingTitle}}</h2>
+                    <h2>About Me</h2>
+
+                    <p>Originally from Wilmington, Delaware, I moved to North Myrtle Beach, South Carolina</p>
+
+                    <div id="map"></div>
+
+                </div>
 
             </div> 
 
         </div>
+
 
 
         <!-- Bootstrap 4 JS -->
@@ -140,6 +149,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
         <!-- Load Angular JS file -->
         <script src="js/angular.js"></script>
+        <!-- GOOGLE MAP -->
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyBBm40aIp8sWMP6uQviU7sUejki2GXiwVc&v=3&callback=initMap" onerror="googleError()" async defer></script>
 
     </body>
 </html>

@@ -191,11 +191,17 @@ ul {
 	transform: perspective(500px) translateZ(3rem);
 }
 
-/* SKILLS section */
+/* About section */
 
-.skills-info {
+.about-info {
 	background-color: lightgrey;
-	height: 20rem;
+	padding: 3.5rem 0 3.5rem 0;
+}
+
+#map {
+	display: block;
+	height: 30rem;
+	width: 100%;
 }
 
 @media (max-width: 991px) {
