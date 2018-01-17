@@ -18,7 +18,7 @@ ul {
 	padding: 0;
 }
 
-.download-btn, .email, .phone, #page-nav {
+.download-btn, .contact-info li, #page-nav {
 	font-family: "Skolar Sans Latin";
 	color: #ffffff;
 }
@@ -90,9 +90,10 @@ ul {
 	color: #b7b7b7;
 	font-family: "Viato-light";
 	letter-spacing: .7px;
+	margin-bottom: 1.5rem;
 }
 
-.email, .phone {
+.contact-info li {
 	font-size: 16pt;
 	letter-spacing: .75px;
 }
@@ -104,7 +105,7 @@ ul {
 .contact-info li {
 	list-style: none;
 	display: inline-block;
-	padding: 1rem;
+	padding: 0 1.5rem 0 1.5rem;
 }
 
 .contact-info span {
@@ -132,11 +133,26 @@ ul {
 
 .skills-info {
 	background-color: lightgrey;
+	height: 20rem;
+}
+
+@media (max-width: 991px) {
+
+	.location {
+		margin-top: 1.5rem;
+	}
 }
 
 @media (max-width: 767px) {
 
 	.download-btn {
 		margin-bottom: 1.2rem;
+	}
+}
+
+@media (max-width: 503px) {
+
+	.phone {
+		margin-top: 1.5rem;
 	}
 }
