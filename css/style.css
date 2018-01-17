@@ -28,26 +28,7 @@ ul {
 	color: #ffffff;
 }
 
-.section-title {
-	font-family: "Viato-light";
-	font-weight: 500;
-	letter-spacing: .75px;
-	font-size: 30pt;
 
-}
-
-.section-info {
-	font-family: "Skolar Sans Latin", san-serif;
-	letter-spacing: .7px;
-	font-size: 13pt;
-	font-weight: 400;
-	color: #666666;
-}
-
-.info-section {
-	background-color: white;
-	padding: 3rem;
-}
 
 /* Header area */
 
@@ -216,7 +197,28 @@ ul {
 	transform: perspective(500px) translateZ(3rem);
 }
 
-/* About section */
+/* Resume section */
+
+.section-title {
+	font-family: "Viato-light";
+	font-weight: 500;
+	letter-spacing: .75px;
+	font-size: 30pt;
+	margin-bottom: 1rem;
+}
+
+.section-info {
+	font-family: "Skolar Sans Latin", san-serif;
+	letter-spacing: .7px;
+	font-size: 13pt;
+	font-weight: 400;
+	color: #666666;
+}
+
+.info-section {
+	background-color: white;
+	padding: 3rem;
+}
 
 .info-layout {
 	
