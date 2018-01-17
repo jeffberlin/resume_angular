@@ -8,6 +8,7 @@ a, a:hover {
 	text-decoration: none !important;
 	color: inherit;
 	outline: none;
+	cursor: pointer;
 }
 
 ul {
@@ -50,9 +51,9 @@ ul {
   	border-radius: .2rem;
   	padding: .6rem;
   	text-shadow: 0 1px 1px #04423c;
-  	cursor: pointer;
   	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
   	opacity: .8;
+  	cursor: pointer;
 }
 
 .download-btn:focus {
@@ -112,6 +113,8 @@ ul {
 	margin-right: .8rem;
 }
 
+/* NAV BAR */
+
 .page-nav {
 	background-color: #00635a;
 }
@@ -128,6 +131,10 @@ ul {
 	padding: 1.4rem;
 }
 
+.nav-item:hover {
+	text-shadow: 2px 2px 2px #04423c;
+	transform: perspective(500px) translateZ(3rem);
+}
 
 /* SKILLS section */
 
