@@ -28,8 +28,6 @@ ul {
 	color: #ffffff;
 }
 
-
-
 /* Header area */
 
 .header {
@@ -199,7 +197,7 @@ ul {
 
 /* Resume section */
 
-.section-title {
+.section-header {
 	font-family: "Viato-light";
 	font-weight: 500;
 	letter-spacing: .75px;
@@ -207,12 +205,40 @@ ul {
 	margin-bottom: 1rem;
 }
 
-.section-info {
+.section-label {
+	font-size: 18pt;
+	letter-spacing: .75px;
+	color: #009688;
+	font-weight: 500;
+}
+
+.section-title {
+	font-family: "Skolar Sans Latin", san-serif;
+	font-style: italic;
+	letter-spacing: .75px;
+	font-size: 15pt;
+	color: #666666;
+}
+
+.about-info, .section-info, .section-date {
 	font-family: "Skolar Sans Latin", san-serif;
 	letter-spacing: .7px;
-	font-size: 13pt;
+	font-size: 14pt;
 	font-weight: 400;
 	color: #666666;
+}
+
+.section-info {
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #d3d3d3ab;
+}
+
+.section-date {
+	opacity: .7;
+}
+
+.section-title, .section-label {
+	margin-bottom: .2rem;
 }
 
 .info-section {
@@ -221,7 +247,6 @@ ul {
 }
 
 .info-layout {
-	
 	padding: 3.5rem 0 3.5rem 0;
 }
 

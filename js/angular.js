@@ -1,6 +1,6 @@
 var app = angular.module('resume', []);
 
-app.controller('myResume', function($scope) {
+app.controller('myResume', function($scope, $anchorScroll, $location) {
     $scope.myName = "Jeff" + " " + "Berlin";
     $scope.headLine = "Web Developer";
     $scope.email = "jeff@jbrally.com";
