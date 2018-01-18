@@ -213,17 +213,17 @@ ul {
 }
 
 .section-title {
-	font-family: "Skolar Sans Latin", san-serif;
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	letter-spacing: .75px;
-	font-size: 15pt;
+	font-size: 14pt;
 	color: #666666;
 }
 
 .about-info, .section-info, .section-date {
-	font-family: "Skolar Sans Latin", san-serif;
+	font-family: 'Playfair Display', serif;
 	letter-spacing: .7px;
-	font-size: 14pt;
+	font-size: 13pt;
 	font-weight: 400;
 	color: #666666;
 }
