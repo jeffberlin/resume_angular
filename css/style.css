@@ -230,7 +230,7 @@ ul {
 
 .section-info {
 	padding-bottom: 1rem;
-	border-bottom: 1px solid #d3d3d3ab;
+	border-bottom: 1px solid #e8e8e8;
 }
 
 .section-info:last-child {
@@ -269,6 +269,27 @@ ul {
 	height: 30rem;
 	width: 100%;
 }*/
+
+/* PORTFOLIO SECTION */
+
+.portfolio-section .filters {
+	list-style: none;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: .8rem;
+}
+
+.filter {
+	display: inline-block;
+	padding: .8rem;
+	text-transform: uppercase;
+	letter-spacing: .7px;
+	cursor: pointer;
+}
+
+.portfolio-section .filters .filter.active {
+	color: #009688;
+	border-bottom: 2px solid #009688;
+}
 
 @media (max-width: 991px) {
 
