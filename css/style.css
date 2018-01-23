@@ -24,8 +24,9 @@ ul {
 }
 
 .download-btn, .contact-info li, #page-nav {
-	font-family: "Skolar Sans Latin", san-serif;
+	font-family: 'Sansita', sans-serif;
 	color: #ffffff;
+	letter-spacing: .7px;
 }
 
 /* Header area */
@@ -206,7 +207,7 @@ ul {
 }
 
 .section-label {
-	font-size: 18pt;
+	font-size: 16pt;
 	letter-spacing: .75px;
 	color: #009688;
 	font-weight: 500;
@@ -216,14 +217,14 @@ ul {
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	letter-spacing: .75px;
-	font-size: 14pt;
+	font-size: 13pt;
 	color: #666666;
 }
 
 .about-info, .section-info, .section-date {
 	font-family: 'Playfair Display', serif;
 	letter-spacing: .7px;
-	font-size: 13pt;
+	font-size: 12pt;
 	font-weight: 400;
 	color: #666666;
 }
@@ -240,7 +241,6 @@ ul {
 
 .section-date {
 	opacity: .7;
-	font-size: 12pt;
 }
 
 .section-title, .section-label {
