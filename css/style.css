@@ -83,9 +83,10 @@ ul {
 }
 
 .name {
-	font-family: "Uberhand Pro";
-	letter-spacing: .75px;
-	font-weight: 500;
+	font-family: 'Overlock', cursive;
+	font-style: italic;
+	letter-spacing: .8px;
+	font-weight: 800;
 	font-size: 28pt;
 	margin-bottom: 0;
 	margin-top: .6rem;
