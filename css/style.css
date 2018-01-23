@@ -23,7 +23,7 @@ ul {
 	padding: 0;
 }
 
-.download-btn, .contact-info li, #page-nav {
+.download-btn, .contact-info li, .page-nav {
 	font-family: 'Sansita', sans-serif;
 	color: #ffffff;
 	letter-spacing: .7px;
@@ -50,7 +50,7 @@ ul {
 }
 
 .download-btn {
-	font-size: 12pt;
+	font-size: 16px;
   	background-color: #00635a;
   	border: none;
   	border-radius: .2rem;
@@ -83,11 +83,9 @@ ul {
 }
 
 .name {
-	font-family: 'Overlock', cursive;
-	font-style: italic;
-	letter-spacing: .8px;
-	font-weight: 800;
-	font-size: 28pt;
+	font-family: 'Merriweather Sans', sans-serif;
+	letter-spacing: .75px;
+	font-size: 42px;
 	margin-bottom: 0;
 	margin-top: .6rem;
 	color: #ffffff;
@@ -95,8 +93,8 @@ ul {
 
 .tag {
 	color: #b7b7b7;
-	font-family: "Viato-light";
-	letter-spacing: .7px;
+	font-family: 'Source Sans Pro', sans-serif;
+	/*letter-spacing: .7px;*/
 	margin-bottom: 1.5rem;
 }
 
