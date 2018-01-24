@@ -206,7 +206,7 @@ ul {
 }
 
 .section-label {
-	font-size: 16pt;
+	font-size: 22px;
 	letter-spacing: .75px;
 	color: #009688;
 	font-weight: 500;
@@ -216,14 +216,14 @@ ul {
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	letter-spacing: .75px;
-	font-size: 13pt;
+	font-size: 17px;
 	color: #666666;
 }
 
 .about-info, .section-info, .section-date {
 	font-family: 'Playfair Display', serif;
 	letter-spacing: .7px;
-	font-size: 12pt;
+	font-size: 15px;
 	font-weight: 400;
 	color: #666666;
 }
@@ -306,6 +306,10 @@ ul {
 }
 
 @media (max-width: 537px) {
+
+	.header-info {
+		height: 100vh;
+	}
 
 	.headshot {
 		height: 12rem;

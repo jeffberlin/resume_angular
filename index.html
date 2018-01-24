@@ -30,7 +30,7 @@
 
         <div ng-app="resume" ng-controller="myResume">
 
-            <header class="container-fluid">
+            <header class="header-info container-fluid">
 
                 <div class="row justify-content-between header">
 
@@ -41,15 +41,19 @@
                             <li class="social-icon">
                                 <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
+
                             <li class="social-icon">
                                 <a href="https://github.com/jeffberlin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                             </li>
+
                             <li class="social-icon">
                                 <a href="https://stackoverflow.com/story/jeff-berlin" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                             </li>
+
                             <li class="social-icon">
                                 <a href="https://angel.co/jeffrey-berlin-1" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></a>
                             </li>
+
                             <li class="social-icon">
                                 <a href="https://www.behance.net/emericajb8bf5d" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
                             </li>
@@ -113,8 +117,11 @@
                             <ul id="page-nav" class="page-nav">
 
                                 <li class="nav-item" ng-click="gotoAnchor(skills)"><a href="#">Skills</a></li>
+
                                 <li class="nav-item" ng-click=""><a href="#">Experience</a></li>
+
                                 <li class="nav-item" ng-click=""><a href="#">Education</a></li>
+
                                 <li class="nav-item" ng-click=""><a href="#">Portfolio</a></li>
 
                             </ul>
@@ -155,57 +162,57 @@
 
             <div class="info-layout experience">
 
-                <div class="container info-section" id="experience">
+                <section class="container info-section" id="experience">
 
                     <h2 class="section-header">Experience</h2>
 
-                    <a href="https://www.trucolors.co" target="_blank"><p class="section-label">TRU Colors Brewing Co.</p></a>
+                    <a href="https://www.trucolors.co" target="_blank"><p class="section-label">TRU Colors Brewing Co. - </a><span class="section-title">UI/UX Developer (Contractor)</span></p>
 
-                    <p class="section-title">UI/UX Developer (Contractor)</p>
+                    <!-- <p class="section-title">UI/UX Developer (Contractor)</p> -->
 
                     <p class="section-date">December 2017 - Present</p>
 
                     <p class="section-info">A local startup that will ultimately be run and operated by active gang members (working together to end gang-on-gang violence in our area), this company reached out to me to handle their developer and certain design needs. My primary responsiblities was creating their company website, consulting on ad design questions, and creating their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.</p>
 
-                    <a href="https://www.jomoapp.com" target="_blank"><p class="section-label">JOMO, Inc.</p></a>
+                    <a href="https://www.jomoapp.com" target="_blank"><p class="section-label">JOMO, Inc. - </a><span class="section-title">UI/UX Developer</span></p>
 
-                    <p class="section-title">UI/UX Developer</p>
+                    <!-- <p class="section-title">UI/UX Developer</p> -->
 
                     <p class="section-date">January 2017 - December 2017</p>
 
                     <p class="section-info">JOMO was a local mobile app startup, where I was in charge of creating and maintaining their website and additional webpages. I was heavily involved in the daily design work that was used for advertising and website content. To create the website and ads, I relied on HTML, CSS, Bootstrap, Javascript, JQuery, Branch.io, Photoshop, Illustrator, and Sketch.</p>
 
-                    <p class="section-label">No Limit Customs</p>
+                    <p class="section-label">No Limit Customs - <span class="section-title">Operations Manager</span></p>
 
-                    <p class="section-title">Operations Manager</p>
+                    <!-- <p class="section-title">Operations Manager</p> -->
 
                     <p class="section-date">September 2015 - January 2017</p>
 
                     <p class="section-info">Even though No Limit is a custom automotive shop, I was in charge of project scheduling, handling online sales, shipments, and also created the designs for the images used in online stores and ads.</p>
 
-                    <p class="section-label">Hadwin-White Buick, GMC, Subaru</p>
+                    <p class="section-label">Hadwin-White Buick, GMC, Subaru - <span class="section-title">Parts Associate</span></p>
 
-                    <p class="section-title">Parts Associate</p>
+                    <!-- <p class="section-title">Parts Associate</p> -->
 
                     <p class="section-date">July 2014 - June 2015</p>
 
                     <p class="section-info">Worked closely with the Parts Manager to ensure we were being as efficient and accurate as possible with our work. I handled all shipments, ordering, and assisting co-workers and customers with any parts needs.</p>
 
-                    <p class="section-label">J & P Management, Inc., DBA Jersey Mike's </p>
+                    <p class="section-label">J & P Management, Inc., DBA Jersey Mike's - <span class="section-title">Night Manager</span></p>
 
-                    <p class="section-title">Night Manager</p>
+                    <!-- <p class="section-title">Night Manager</p> -->
 
                     <p class="section-date">September 2007 - July 2014</p>
 
                     <p class="section-info">Assigned duties for co-workers to have completed by the end of the shift, counted the money at the end of the shift, and handled any issues that may arise.</p>
 
-                </div>
+                </section>
 
             </div>
 
             <div class="info-layout education">
 
-                <div class="container info-section" id="education">
+                <section class="container info-section" id="education">
 
                     <h2 class="section-header">Education</h2>
 
@@ -241,28 +248,31 @@
 
                     <p class="section-info">After taking a few graphic design classes, I became familiar with programs that include Adobe Photoshop, Illustrator, InDesign, and Sketch. These courses lead to my interest in learning how to code.</p>
 
-                </div>
+                </section>
 
             </div>
 
             <div class="info-layout portfolio">
 
-                <div class="container info-section" id="portfolio">
+                <section class="container info-section" id="portfolio">
 
                     <h2 class="section-header">Portfolio</h2>
 
-                    <section class="portfolio-section section">
+                    <div class="portfolio-section section">
                         
                         <ul class="portfolio-nav filters text-center">
+
                             <li class="filter active" data-filter="*">All</li>
+
                             <li class="filter" data-filter=".development">Development</li>
+
                             <li class="filter" data-filter=".design">Graphic Design</li>
+
                         </ul>
 
-                    </section>
-                    
+                    </div>
 
-                </div>
+                </section>
 
             </div>
 
