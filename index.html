@@ -76,7 +76,7 @@
 
                         <img class="headshot rounded-circle img-thumbnail" src="images/racing-min.jpg">
 
-                        <h1 class="name">{{myName}}</h1>
+                        <h1 class="name">{{myName()}}</h1>
 
                         <h3 class="tag">{{headLine}}</h3>
 
@@ -116,13 +116,13 @@
                             
                             <ul id="page-nav" class="page-nav">
 
-                                <li class="nav-item" ng-click="gotoAnchor(skills)"><a href="#">Skills</a></li>
+                                <li class="nav-item" ><a id="skills-button">Skills</a></li>
 
-                                <li class="nav-item" ng-click=""><a href="#">Experience</a></li>
+                                <li class="nav-item" ><a id="experience-button">Experience</a></li>
 
-                                <li class="nav-item" ng-click=""><a href="#">Education</a></li>
+                                <li class="nav-item" ><a id="education-button">Education</a></li>
 
-                                <li class="nav-item" ng-click=""><a href="#">Portfolio</a></li>
+                                <li class="nav-item" ><a id="portfolio-button">Portfolio</a></li>
 
                             </ul>
 
@@ -285,9 +285,9 @@
 
 
         <!-- Bootstrap 4 JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!-- Load Angular JS file -->
         <script src="js/angular.js"></script>
         <!-- GOOGLE MAP -->
