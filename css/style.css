@@ -264,6 +264,15 @@ ul {
 	padding-top: 0;
 }
 
+.skills-set li {
+	list-style: none;
+	padding: 1rem;
+	width: 8rem;
+	display: inline-block;
+	border: 1px solid grey;
+	margin: .2rem;
+}
+
 /*#map {
 	display: block;
 	height: 30rem;
