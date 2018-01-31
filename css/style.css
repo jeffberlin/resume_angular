@@ -264,6 +264,18 @@ ul {
 	padding-top: 0;
 }
 
+.skills-set {
+	margin-bottom: 2rem;
+}
+
+.skills-set:last-child {
+	margin-bottom: 0rem;
+}
+
+.skills-label {
+	margin-bottom: 1rem;
+}
+
 .skills-set li {
 	list-style: none;
 	padding: .8rem 1rem;
