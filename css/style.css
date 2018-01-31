@@ -267,15 +267,16 @@ ul {
 .skills-set li {
 	list-style: none;
 	padding: .8rem 1rem;
-	width: 8rem;
+	width: 9rem;
 	display: inline-block;
-	border: 1px solid grey;
-	margin: .2rem;
+	border: 1px solid #d0d0d0;
+	margin: .3rem;
 	letter-spacing: .7px;
-	font-size: 18px;
+	font-size: 16px;
 	border-radius: .3rem;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 	/*text-shadow: 0 1px 1px #007D72;*/
+	/* for status bar style - background: linear-gradient(to right, #009688, #009688 40%, #ffffff 40%, #ffffff 60%); */
 }
 
 /*#map {
