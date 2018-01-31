@@ -220,7 +220,7 @@ ul {
 	color: #666666;
 }
 
-.about-info, .section-info, .section-date {
+.about-info, .section-info, .section-date, .work-date, .work-location span {
 	font-family: 'Playfair Display', serif;
 	letter-spacing: .7px;
 	font-size: 15px;
@@ -238,7 +238,7 @@ ul {
 	padding-bottom: 0;
 }
 
-.section-date {
+.section-date, .work-date, .work-location i, .work-location span {
 	opacity: .7;
 }
 
@@ -289,6 +289,21 @@ ul {
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 	/*text-shadow: 0 1px 1px #007D72;*/
 	/* for status bar style - background: linear-gradient(to right, #009688, #009688 40%, #ffffff 40%, #ffffff 60%); */
+}
+
+.work-date {
+	margin-bottom: .2rem;
+}
+
+.work-location i {
+	margin-right: .2rem;
+	font-size: 15px;
+	color: #666666;
+	opacity: .5;
+}
+
+.work-location span {
+
 }
 
 /*#map {
