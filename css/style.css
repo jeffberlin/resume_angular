@@ -249,6 +249,11 @@ ul {
 	margin-bottom: .2rem;
 }
 
+.job-title {
+	border-right: 1px solid #b7b7b7;
+	padding-right: 3rem;
+}
+
 .info-section {
 	background-color: white;
 	padding: 3rem;
@@ -330,6 +335,25 @@ ul {
 .portfolio-section .filters .filter.active {
 	color: #009688;
 	border-bottom: 2px solid #009688;
+}
+
+.portfolio-preview {
+	padding-top: 2rem;
+}
+
+.pot {
+	/*background-color: green;*/
+	height: 25rem;
+	padding-top: .4rem;
+}
+
+.screenshot {
+	width: 20rem;
+}
+
+.project-title {
+	margin-top: .5rem;
+	letter-spacing: .7px;
 }
 
 @media (max-width: 991px) {
