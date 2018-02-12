@@ -337,22 +337,22 @@ ul {
 	border-bottom: 2px solid #009688;
 }
 
-.portfolio-preview {
-	padding-top: 2rem;
-}
-
-.pot {
-	height: 25rem;
-	/*padding-top: .4rem;*/
-}
-
-.screenshot {
-	width: 20rem;
+.projects {
+	margin-top: 1.5rem;
+	padding: .5rem .5rem 1rem .5rem;
+	background-color: #009688;
 }
 
 .project-title {
-	margin-top: .5rem;
 	letter-spacing: .7px;
+}
+
+.description {
+	color: #ffffff;
+}
+
+.description p {
+	margin-bottom: 0;
 }
 
 @media (max-width: 991px) {
