@@ -36,3 +36,9 @@ $("#portfolio-button").click(function() {
 		scrollTop: $("#portfolio").offset().top
 	}, 'slow')
 })
+
+// Code for portfolio modal's
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})

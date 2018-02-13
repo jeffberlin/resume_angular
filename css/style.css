@@ -347,16 +347,26 @@ ul {
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 
-.project-title {
-	letter-spacing: .7px;
-}
-
 .description {
 	color: #ffffff;
 }
 
+.description h5 {
+	letter-spacing: .75px;
+}
+
 .description p {
 	margin-bottom: 0;
+	padding: 0 .5rem 0 .5rem;
+}
+
+.modal-link {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.modal-link:hover {
+	color: grey;
 }
 
 @media (max-width: 991px) {
