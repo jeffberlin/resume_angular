@@ -366,7 +366,7 @@ ul {
 }
 
 .modal-link:hover {
-	color: grey;
+	color: lightgrey;
 }
 
 @media (max-width: 991px) {
