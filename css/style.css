@@ -29,6 +29,25 @@ ul {
 	letter-spacing: .7px;
 }
 
+/* REMOVE BANNER WHEN FINISHED */
+
+.banner {
+	background-color: #000000;
+	color: #ffffff;
+	padding: .4rem;
+}
+
+.banner p {
+	display: inline;
+}
+
+@media (max-width: 487px) {
+
+	.banner p {
+		font-size: 12px;
+	}
+}
+
 /* Header area */
 
 .header {
