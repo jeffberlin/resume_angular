@@ -28,7 +28,7 @@
     </head>
     <body>
 
-        <div ng-app="resume" ng-controller="myResume">
+        <div ng-app="resume" ng-controller="resumeCtrl">
 
             <div class="banner container-fluid">
 
@@ -444,234 +444,43 @@
 
                     <div class="portfolio-section section">
                         
-                        <ul class="portfolio-nav filters text-center">
+                        <ul class="portfolio-nav filters text-center" role="tablist">
 
-                            <li class="filter active" data-filter="*">All</li>
+                            <li class="filter active" role="presentation" ng-class="{active:resumeCtrl.isSelected(1)}">
+                                <a ng-click="resumeCtrl.select(1)" aria-controls="all items" role="tab">All</a>
+                            </li>
 
-                            <li class="filter" data-filter=".development">Development</li>
+                            <li class="filter" role="presentation" ng-class="{active:resumeCtrl.isSelected(2)}">
+                                <a ng-click="resumeCtrl.select(2)" aria-controls="" role="tab">Development</a>
+                            </li>
 
-                            <li class="filter" data-filter=".design">Design</li>
+                            <li class="filter" role="presentation" ng-class="{active:resumeCtrl.isSelected(3)}">
+                                <a ng-click="resumeCtrl.select(3)" aria-controls="" role="tab">Design</a>
+                            </li>
 
                         </ul>
 
                         <div class="row portfolio-preview">
 
-                            <div class="col-lg-4 development text-center">
+                            <div class="col-lg-4 text-center" ng-repeat="x in projects">
 
-                                <div class="projects">
+                                <div class="projects tab-content active">
 
                                     <figure>
 
-                                        <a href="https://www.trucolors.co" target="_blank"><img class="img-fluid development screenshot" src="images/tcb_screenshot"></a>
-
+                                        <a ng-href="{{x.url}}" target="_blank">
+                                            <img class="img-fluid screenshot" ng-src="{{x.image}}" alt="{{x.title}}">
+                                        </a>
+                                        
                                     </figure>
 
                                     <div class="description">
 
-                                        <a href="https://www.trucolors.co" target="_blank"><h5>TRU Colors Brewing Co.</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#TruColorsSiteModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
- 
-
-                            </div>
-
-                            
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="https://jeffberlin.github.io/JOMO_website/index.html" target="_blank"><img class="img-fluid development screenshot" src="images/jomo_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/JOMO_website/index.html" target="_blank"><h5>JOMO</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#JomoHomeModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="https://jeffberlin.github.io/JOMO_website/charlotte.html" target="_blank"><img class="img-fluid development screenshot" src="images/jomo_charlotte_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/JOMO_website/charlotte.html" target="_blank"><h5>JOMO Charlotte Giveaway</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#JomoCharlotteModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="https://jeffberlin.github.io/JOMO_website/rep.html" target="_blank"><img class="img-fluid development screenshot" src="images/jomo_rep_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/JOMO_website/rep.html" target="_blank"><h5>JOMO Campus Rep</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#JomoRepModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="https://jeffberlin.github.io/Wilmington-Breweries/" target="_blank"><img class="img-fluid development screenshot" src="images/wilm_brew_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/Wilmington-Breweries/" target="_blank"><h5>Wilmington Breweries</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#wilmBrewModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="http://jbrally.com/" target="_blank"><img class="img-fluid development screenshot" src="images/jbrally_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/Wilmington-Breweries/" target="_blank"><h5>Jeff Berlin Rally</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#jeffBerlinRallyModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html" target="_blank"><img class="img-fluid development screenshot" src="images/movie_trailers_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html" target="_blank"><h5>Movie Trailers</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#movieTrailerModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="https://jeffberlin.github.io/Frogger-JavaScript/" target="_blank"><img class="img-fluid development screenshot" src="images/frogger_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/Frogger-JavaScript/" target="_blank"><h5>Frogger Javascript Game</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#froggerModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 development text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="https://jeffberlin.github.io/javascript-resume/" target="_blank"><img class="img-fluid development screenshot" src="images/javascript_resume_screenshot"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="https://jeffberlin.github.io/javascript-resume/" target="_blank"><h5>Javascript Resume</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#resumeModalCenter">here</span> for more info about the page!</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4 design text-center">
-
-                                <div class="projects">
-
-                                    <figure>
-
-                                        <a href="images/tru-colors-brochure.pdf" target="_blank"><img class="img-fluid development screenshot" src="images/tcb_brochure.png"></a>
-
-                                    </figure>
-
-                                    <div class="description">
-
-                                        <a href="images/tru-colors-brochure.pdf" target="_blank"><h5>TCB Brochure</h5></a>
-
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#truBrochureModalCenter">here</span> for more info about the brochure!</p>
+                                        <a ng-href="{{x.url}}" target="_blank">
+                                            <h5>{{x.title}}</h5>
+                                        </a>
+
+                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="{{x.modalName}}">here</span> for more info about the page!</p>
 
                                     </div>
 
