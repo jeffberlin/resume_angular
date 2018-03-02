@@ -10,6 +10,14 @@ app.controller('resumeCtrl', function($scope, $document) {
     $scope.phone = "(302) 463-5129";
     $scope.location = "North Myrtle Beach, SC";
 
+    $scope.developmentSkills = [
+    	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'Analytics', 'SQL', 'Postgres', 'GitHub', 'WordPress' 
+    ];
+
+    $scope.designSkills = [
+    	'Photoshop', 'Illustrator', 'InDesign', 'Sketch'
+    ];
+
 // Projects array to display images and info. Modal info is located in index.html
     $scope.projects = [
 		{

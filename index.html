@@ -172,88 +172,12 @@
 
                     <p class="section-label skills-label text-center">Development</p>
 
-                    <div class="row development-skills text-center">
+                    <div class="row development-skills text-center" >
 
                         <ul class="skills-set col-lg-12 col-xs-6">
 
-                            <li>
-                                <span>HTML</span>
-                            </li>
-
-                            <li>
-                                <span>CSS</span>
-                            </li>
-
-                            <li>
-                                <span>Javascript</span>
-                            </li>
-
-                            <li>
-                                <span>JQuery</span>
-                            </li>
-
-                            <li>
-                                <span>Bootstrap</span>
-                            </li>
-
-                            <li>
-                                <span>Foundation</span>
-                            </li>
-
-                            <li>
-                                <span>Angular</span>
-                            </li>
-
-                            <li>
-                                <span>KnockoutJS</span>
-                            </li>
-
-                            <li>
-                                <span>Python</span>
-                            </li>
-
-                            <li>
-                                <span>PHP</span>
-                            </li>
-
-                            <li>
-                                <span>React</span>
-                            </li>
-
-                            <li>
-                                <span>SQL</span>
-                            </li>
-
-                            <li>
-                                <span>Github</span>
-                            </li>
-
-                            <li>
-                                <span>AJAX</span>
-                            </li>
-
-                            <li>
-                                <span>JSON</span>
-                            </li>
-
-                            <li>
-                                <span>Jasmine</span>
-                            </li>
-
-                            <li>
-                                <span>Flexbox</span>
-                            </li>
-
-                            <li>
-                                <span>Analytics</span>
-                            </li>
-
-                            <li>
-                                <span>Open Graph</span>
-                            </li>
-
-                            <li>
-                                <span>WordPress</span>
+                            <li ng-repeat="x in developmentSkills">
+                                <span>{{x}}</span>
                             </li>
 
                         </ul>
@@ -266,20 +190,8 @@
 
                         <ul class="skills-set col-lg-12 col-xs-6">
                             
-                            <li>
-                                <span>Photoshop</span>
-                            </li>
-
-                            <li>
-                                <span>Illustrator</span>
-                            </li>
-
-                            <li>
-                                <span>InDesign</span>
-                            </li>
-
-                            <li>
-                                <span>Sketch</span>
+                            <li ng-repeat="x in designSkills">
+                                <span>{{x}}</span>
                             </li>
 
                         </ul>
