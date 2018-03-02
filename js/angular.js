@@ -10,6 +10,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     $scope.phone = "(302) 463-5129";
     $scope.location = "North Myrtle Beach, SC";
 
+// Projects array to display images and info. Modal info is located in index.html
     $scope.projects = [
 		{
 			title: 'TRU Colors Brewing Co.',
