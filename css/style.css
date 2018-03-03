@@ -408,6 +408,13 @@ ul {
 	}
 }
 
+@media (max-width: 575px) {
+
+	.info-section {
+		padding: 1rem;
+	}
+}
+
 @media (max-width: 537px) {
 
 	.header-info {
@@ -451,5 +458,12 @@ ul {
 	.skills-set li {
 		width: 7rem;
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 395px) {
+
+	.filter {
+		font-size: 14px;
 	}
 }

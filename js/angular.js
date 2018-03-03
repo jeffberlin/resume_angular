@@ -10,10 +10,12 @@ app.controller('resumeCtrl', function($scope, $document) {
     $scope.phone = "(302) 463-5129";
     $scope.location = "North Myrtle Beach, SC";
 
+// Array for development skills
     $scope.developmentSkills = [
     	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'Analytics', 'SQL', 'Postgres', 'GitHub', 'WordPress' 
     ];
 
+// Array for design skills
     $scope.designSkills = [
     	'Photoshop', 'Illustrator', 'InDesign', 'Sketch'
     ];
