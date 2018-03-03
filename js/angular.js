@@ -91,6 +91,20 @@ app.controller('resumeCtrl', function($scope, $document) {
 			url: './images/tru-colors-brochure.pdf',
 			category: ['development', 'design'],
 			modalName: '#truBrochureModalCenter'
+		},
+		{
+			title: 'Appalachian Slab & Timber',
+			image: './images/app_st_logo.png',
+			url: './images/applogo.jpg',
+			category: 'design',
+			modalName: '#appLogoModalCenter'
+		},
+		{
+			title: 'Appalachian Slab & Timber',
+			image: './images/app_brand_logo.png',
+			url: './images/app_brandlogo.jpg',
+			category: 'design',
+			modalName: '#appBrandModalCenter'
 		}
 
 	];
