@@ -1,0 +1,73 @@
+@media (max-width: 991px) {
+
+	.location {
+		margin-top: 1.5rem;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.download-btn {
+		margin-bottom: 1.2rem;
+	}
+}
+
+@media (max-width: 575px) {
+
+	.info-section {
+		padding: 1rem;
+	}
+}
+
+@media (max-width: 537px) {
+
+	.header-info {
+		height: 100vh;
+	}
+
+	.headshot {
+		height: 12rem;
+		width: 12rem;
+		margin-top: -100px;
+	}
+
+	.headline {
+		padding-bottom: 0;
+		height: 60vh;
+	}
+
+	.location {
+		margin-bottom: 1rem;
+	}
+
+	.arrow {
+		visibility: visible;
+	}
+
+	.page-nav {
+		visibility: hidden;
+	}
+
+}
+
+@media (max-width: 503px) {
+
+	.phone {
+		margin-top: 1.5rem;
+	}
+}
+
+@media (max-width: 407px) {
+
+	.skills-set li {
+		width: 7rem;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 395px) {
+
+	.filter {
+		font-size: 14px;
+	}
+}
