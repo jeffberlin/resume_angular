@@ -29,6 +29,31 @@ ul {
 	letter-spacing: .7px;
 }
 
+#topcontrol {
+	
+
+	background-color: #00635a;
+	text-align: center;
+	display: inline-block;
+	z-index: 30;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	background-clip: padding-box;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+#topcontrol .fa-angle-up {
+	position: relative;
+	font-size: 25px;
+	font-weight: normal;
+	top: 3px;
+	color: #ffffff;
+}
+
 /* REMOVE BANNER WHEN FINISHED */
 
 .banner {
