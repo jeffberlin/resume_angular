@@ -43,7 +43,7 @@
 
         <div ng-app="resume" ng-controller="resumeCtrl">
 
-            <div class="banner container-fluid">
+            <div class="banner container-fluid" id="top-page">
 
                 <div class="row align-items-center">
 
@@ -371,16 +371,16 @@
                         
                         <ul class="portfolio-nav filters text-center" role="tablist">
 
-                            <li class="filter active" role="presentation" ng-class="{active:resumeCtrl.isSelected(1)}">
-                                <a ng-click="resumeCtrl.select(1)" aria-controls="all items" role="tab">All</a>
+                            <li class="filter active" role="presentation">
+                                <a ng-click="filterNav('category')" aria-controls="all items" role="tab">All</a>
                             </li>
 
-                            <li class="filter" role="presentation" ng-class="{active:resumeCtrl.isSelected(2)}">
-                                <a ng-click="resumeCtrl.select(2)" aria-controls="" role="tab">Development</a>
+                            <li class="filter" role="presentation">
+                                <a ng-click="" aria-controls="" role="tab">Development</a>
                             </li>
 
-                            <li class="filter" role="presentation" ng-class="{active:resumeCtrl.isSelected(3)}">
-                                <a ng-click="resumeCtrl.select(3)" aria-controls="" role="tab">Design</a>
+                            <li class="filter" role="presentation">
+                                <a ng-click="" aria-controls="" role="tab">Design</a>
                             </li>
 
                         </ul>

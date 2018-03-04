@@ -109,6 +109,10 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 	];
 
+	$scope.filterNav = function(x) {
+    	$scope.filterBy = x;
+    };
+
 	// this.items = projects;
 	this.tab = 1;
 	this.filterText = '';
@@ -135,6 +139,12 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 
 /* JQuery code for the smooth scrolling on nav item clicks */
+
+$("#topcontrol").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#top-page").offset().top
+	}, 'slow')
+})
 
 $("#skills-button").click(function() {
 	$('html, body').animate({
