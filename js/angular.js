@@ -89,7 +89,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 			title: 'TCB Brochure',
 			image: './images/tcb_brochure.png',
 			url: './images/tru-colors-brochure.pdf',
-			category: ['development', 'design'],
+			category: 'design',
 			modalName: '#truBrochureModalCenter'
 		},
 		{
@@ -109,31 +109,22 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 	];
 
-	$scope.filterNav = function(x) {
-    	$scope.filterBy = x;
-    };
+	// Removes projects from view 
+	$scope.removeProjectItem = function(project, event, index) {
+		$scope.projects.splice(index, 1);
+	};
 
-	// this.items = projects;
+	// Active tab
 	this.tab = 1;
-	this.filterText = '';
 
-	this.select = function(setTab) {
+	this.selectTab = function(setTab) {
 		this.tab = setTab;
-		if (setTab === 2)
-			this.filterText = "development";
-		else if (setTab === 3)
-			this.filterText = "design";
-		else
-			this.filterText = "";
-	}
+	};
 
 	this.isSelected = function(checkTab) {
-		return (this.tab === checkTab);
-	}
+		return this.tab === checkTab;
+	};
 
-	// $scope.filterBy = function(setTab) {
-	// 	$scope.userOrderBy = setTab;
-	// }
 });
 
 

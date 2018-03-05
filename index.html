@@ -369,25 +369,25 @@
 
                     <div class="portfolio-section section">
                         
-                        <ul class="portfolio-nav filters text-center" role="tablist">
+                        <ul class="portfolio-nav filters text-center" ng-init="tab = 1">
 
-                            <li class="filter active" role="presentation">
-                                <a ng-click="filterNav('category')" aria-controls="all items" role="tab">All</a>
+                            <li class="filter active" ng-class="{active:panel.isSelected(1)}">
+                                <a ng-click="panel.selectTab(1); groupFilter = {}" aria-controls="all items">All</a>
                             </li>
 
-                            <li class="filter" role="presentation">
-                                <a ng-click="" aria-controls="" role="tab">Development</a>
+                            <li class="filter" ng-class="{active:panel.isSelected(2)}">
+                                <a ng-click="panel.selectTab(2); groupFilter = {category:'development'}" aria-controls="">Development</a>
                             </li>
 
-                            <li class="filter" role="presentation">
-                                <a ng-click="" aria-controls="" role="tab">Design</a>
+                            <li class="filter" ng-class="{active:panel.isSelected(3)}">
+                                <a ng-click="panel.selectTab(3); groupFilter = {category:'design'}" aria-controls="">Design</a>
                             </li>
 
                         </ul>
 
                         <div class="row portfolio-preview">
 
-                            <div class="col-lg-4 text-center" ng-repeat="x in projects">
+                            <div class="col-lg-4 text-center" ng-repeat="x in projects | filter:groupFilter">
 
                                 <div class="projects tab-content active">
 
