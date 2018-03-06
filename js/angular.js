@@ -125,6 +125,17 @@ app.controller('resumeCtrl', function($scope, $document) {
 		return this.tab === checkTab;
 	};
 
+	// Handles the portfolio tab change to ".active"
+	$scope.header = document.getElementById("portfolio");
+	$scope.activeTab = $scope.header.getElementsByClassName("filter");
+	for (var i = 0; i < $scope.activeTab.length; i++) {
+		$scope.activeTab[i].addEventListener("click", function() {
+			$scope.current = document.getElementsByClassName("active");
+			$scope.current[0].className = $scope.current[0].className.replace(" active", "");
+			this.className += " active";
+		});
+	}
+
 });
 
 

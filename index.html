@@ -372,15 +372,15 @@
                         <ul class="portfolio-nav filters text-center" ng-init="tab = 1">
 
                             <li class="filter active" ng-class="{active:panel.isSelected(1)}">
-                                <a ng-click="panel.selectTab(1); groupFilter = {}" aria-controls="all items">All</a>
+                                <a ng-click="panel.selectTab(1); groupFilter = {}">All</a>
                             </li>
 
                             <li class="filter" ng-class="{active:panel.isSelected(2)}">
-                                <a ng-click="panel.selectTab(2); groupFilter = {category:'development'}" aria-controls="">Development</a>
+                                <a ng-click="panel.selectTab(2); groupFilter = {category:'development'}">Development</a>
                             </li>
 
                             <li class="filter" ng-class="{active:panel.isSelected(3)}">
-                                <a ng-click="panel.selectTab(3); groupFilter = {category:'design'}" aria-controls="">Design</a>
+                                <a ng-click="panel.selectTab(3); groupFilter = {category:'design'}">Design</a>
                             </li>
 
                         </ul>

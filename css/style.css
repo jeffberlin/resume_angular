@@ -374,7 +374,7 @@ ul {
 	cursor: pointer;
 }
 
-.portfolio-section .filters .filter.active {
+.portfolio-section .filters .active {
 	color: #009688;
 	border-bottom: 2px solid #009688;
 }
