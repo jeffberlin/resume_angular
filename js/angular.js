@@ -105,6 +105,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 			url: './images/app_brandlogo.jpg',
 			category: 'design',
 			modalName: '#appBrandModalCenter'
+		},
+		{
+			title: 'Wilmington Brew',
+			image: './images/ilm_brew_logo-400.png',
+			url: './images/ilm_brew_logo.jpg',
+			category: 'design',
+			modalName: '#ilmBrewModalCenter'
 		}
 
 	];
