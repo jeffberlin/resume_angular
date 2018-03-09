@@ -61,6 +61,38 @@ app.controller('resumeCtrl', function($scope, $document) {
 		}
 	];
 
+// Array for Education
+	$scope.education = [
+		{
+			schoolName: 'Udacity',
+			schoolURL: 'https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001',
+			course: 'Front-end Web Development - Nanodegree',
+			date: 'August 2016 - March 2017',
+			courseInfo: 'Through this Front-end Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing.'
+		},
+		{
+			schoolName: 'Udacity',
+			schoolURL: 'https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004',
+			course: 'Full Stack Development - Nanodegree',
+			date: 'In Progress',
+			courseInfo: 'This online programming course gave me experience working with Python, SQL, and Postgres.'
+		},
+		{
+			schoolName: 'Udacity',
+			schoolURL: 'https://www.udacity.com',
+			course: 'React Development - Nanodegree',
+			date: 'In Progress',
+			courseInfo: 'Learning the in\'s and out\'s of the React framework and then we will be learning Redux and React Native through this course.'
+		},
+		{
+			schoolName: 'Horry-Georgetown Technical College',
+			schoolURL: '',
+			course: 'Digital Arts, A.S.',
+			date: 'In Progress',
+			courseInfo: 'After taking a few graphic design classes, I became familiar with programs that include Adobe Photoshop, Illustrator, InDesign, and Sketch. These courses lead to my interest in learning how to code.'
+		}
+	];
+
 // Projects array to display images and info. Modal info is located in index.html
     $scope.projects = [
 		{

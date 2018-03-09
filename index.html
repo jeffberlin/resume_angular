@@ -253,37 +253,17 @@
 
                     <h2 class="section-header">Education</h2>
 
-                    <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank"><p class="section-label">Udacity</p></a>
+                    <div class="education-info" ng-repeat="x in education">
 
-                    <p class="section-title">Front-end Web Development - Nanodegree</p>
+                        <a ng-href="{{x.schoolURL}}" target="_blank"><p class="section-label">{{x.schoolName}}</p></a>
 
-                    <p class="section-date">August 2016 - March 2017</p>
+                        <p class="section-title">{{x.course}}</p>
 
-                    <p class="section-info">Through this Front-end Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing.</p>
+                        <p class="section-date">{{x.date}}</p>
 
-                    <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004" target="_blank"><p class="section-label">Udacity</p></a>
+                        <p class="section-info">{{x.courseInfo}}</p>
 
-                    <p class="section-title">Full Stack Development - Nanodegree</p>
-
-                    <p class="section-date">In Progress</p>
-
-                    <p class="section-info">This online programming course gave me experience working with Python, SQL, and Postgres. </p>
-
-                    <a href="https://www.udacity.com" target="_blank"><p class="section-label">Udacity</p></a>
-
-                    <p class="section-title">React Development - Nanodegree</p>
-
-                    <p class="section-date">In Progress</p>
-
-                    <p class="section-info">Learning the in's and out's of the React framework and then we will be learning Redux and React Native through this course.</p>
-
-                    <a href="" target="_blank"><p class="section-label">Horry-Georgetown Technical College</p></a>
-
-                    <p class="section-title">Digital Arts, A.S.</p>
-
-                    <p class="section-date">In Progress</p>
-
-                    <p class="section-info">After taking a few graphic design classes, I became familiar with programs that include Adobe Photoshop, Illustrator, InDesign, and Sketch. These courses lead to my interest in learning how to code.</p>
+                    </div>
 
                 </section>
 

@@ -273,16 +273,6 @@ ul {
 	color: #666666;
 }
 
-.section-info {
-	padding-bottom: 1rem;
-	border-bottom: 1px solid #e8e8e8;
-}
-
-.section-info:last-child {
-	border-bottom: none;
-	padding-bottom: 0;
-}
-
 .section-date, .work-date, .work-location i, .work-location span {
 	opacity: .7;
 }
@@ -358,6 +348,17 @@ ul {
 	height: 30rem;
 	width: 100%;
 }*/
+
+/* EDUCATION SECTION */
+
+.education-info {
+	margin-bottom: 1rem;
+	border-bottom: 1px solid #e8e8e8;
+}
+.education-info:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
 
 /* PORTFOLIO SECTION */
 
