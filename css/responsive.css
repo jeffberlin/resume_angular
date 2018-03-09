@@ -3,9 +3,14 @@
 	.location {
 		margin-top: 1.5rem;
 	}
+	
 }
 
 @media (max-width: 767px) {
+
+	.header {
+		padding-top: 2rem;
+	}
 
 	.download-btn {
 		margin-bottom: 1.2rem;
@@ -32,21 +37,21 @@
 	}
 
 	.headline {
-		padding-bottom: 0;
-		height: 60vh;
+		padding-bottom: 1.5rem;
+		/*height: 60vh;*/
 	}
 
 	.location {
 		margin-bottom: 1rem;
 	}
 
-	.arrow {
+	/*.arrow {
 		visibility: visible;
 	}
 
 	.page-nav {
 		visibility: hidden;
-	}
+	}*/
 
 }
 
