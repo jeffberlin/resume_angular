@@ -1,9 +1,13 @@
 @media (max-width: 991px) {
 
+	.container {
+		max-width: 90%;
+	}
+
 	.location {
 		margin-top: 1.5rem;
 	}
-	
+
 }
 
 @media (max-width: 767px) {
@@ -14,6 +18,13 @@
 
 	.download-btn {
 		margin-bottom: 1.2rem;
+	}
+}
+
+@media (max-width: 567px) {
+
+	.container {
+		max-width: 540px;
 	}
 }
 

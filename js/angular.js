@@ -20,6 +20,47 @@ app.controller('resumeCtrl', function($scope, $document) {
     	'Photoshop', 'Illustrator', 'InDesign', 'Sketch'
     ];
 
+// Array for Work Experience
+	$scope.workExperience = [
+		{
+			jobTitle: 'UI/UX Developer (Contractor)',
+			workDate: 'December 2017 - Present',
+			company: 'TRU Colors Brewing Co.',
+			companyURL: 'https://www.trucolors.co',
+			workLocation: 'Wilmington, NC',
+			jobDescription: 'A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area, this company reached out to me to handle their developer and certain design needs. My primary responsiblities was creating their company website, consulting on ad design questions, and creating their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.'
+		},
+		{
+			jobTitle: 'Frontend Web Developer',
+			workDate: 'January 2017 - December 2017',
+			company: 'JOMO, Inc.',
+			companyURL: 'https://jeffberlin.github.io/JOMO_website/index.html',
+			workLocation: 'Wilmington, NC',
+			jobDescription: 'JOMO was a local mobile app startup, where I was in charge of creating and maintaining their website and additional webpages. Aside from creating, updating, and maintaining the website, I was heavily involved in the daily graphic work that was used for advertising and website content. To create the website and ads, I relied on HTML, CSS, Bootstrap, Javascript, JQuery, Branch.io, Photoshop, Illustrator, and Sketch.'
+		},
+		{
+			jobTitle: 'Operations Manager',
+			workDate: 'September 2015 - January 2017',
+			company: 'No Limit Customs',
+			workLocation: 'North Myrtle Beach, SC',
+			jobDescription: 'Even though No Limit is a custom automotive shop, I was in charge of project scheduling, handling online sales, shipments, and also created the designs for the images used in online stores and ads.'
+		},
+		{
+			jobTitle: 'Parts Associate',
+			workDate: 'July 2014 - June 2015',
+			company: 'Hadwin-White Buick, GMC, Subaru',
+			workLocation: 'Conway, SC',
+			jobDescription: 'Worked closely with the Parts Manager to ensure we were being as efficient and accurate as possible with our work. I handled all shipments, ordering, and assisting co-workers and customers with any parts needs.'
+		},
+		{
+			jobTitle: 'Night Manager',
+			workDate: 'September 2007 - July 2014',
+			company: 'J & P Management, Inc., DBA Jersey Mike\'s',
+			workLocation: 'North Myrtle Beach, SC',
+			jobDescription: 'Assigned duties for co-workers to have completed by the end of the shift, counted the money at the end of the shift, and handled any issues that may arise.'
+		}
+	];
+
 // Projects array to display images and info. Modal info is located in index.html
     $scope.projects = [
 		{

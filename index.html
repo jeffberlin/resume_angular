@@ -221,95 +221,23 @@
 
                     <h2 class="section-header">Experience</h2>
 
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between" ng-repeat="x in workExperience">
 
                         <div class="col-lg-4 text-right job-title">
 
-                            <p class="section-title">UI/UX Developer (Contractor)</p>
+                            <p class="section-title">{{x.jobTitle}}</p>
 
-                            <p class="work-date">December 2017 - Present</p>
+                            <p class="work-date">{{x.workDate}}</p>
 
                         </div>
 
                         <div class="col-lg-8 work-name">
 
-                            <a href="https://www.trucolors.co" target="_blank"><p class="section-label">TRU Colors Brewing Co.</a></p>
+                            <a ng-href="{{x.companyURL}}" target="_blank"><p class="section-label">{{x.company}}</a></p>
 
-                            <p class="work-location"><i class="fa fa-map-marker"></i><span>Wilmington, NC</span>
+                            <p class="work-location"><i class="fa fa-map-marker"></i><span>{{x.workLocation}}</span>
 
-                            <p class="section-info">A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area, this company reached out to me to handle their developer and certain design needs. My primary responsiblities was creating their company website, consulting on ad design questions, and creating their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.</p>
-
-                        </div>
-
-                        <div class="col-lg-4 text-right job-title">
-
-                            <p class="section-title">UI/UX Developer</p>
-
-                            <p class="work-date">January 2017 - December 2017</p>
-
-                        </div>
-
-                        <div class="col-lg-8 work-name">
-
-                            <a href="https://jeffberlin.github.io/JOMO_website/index.html" target="_blank"><p class="section-label">JOMO, Inc.</a></p>
-
-                            <p class="work-location"><i class="fa fa-map-marker"></i><span>Wilmington, NC</span>
-
-                            <p class="section-info">JOMO was a local mobile app startup, where I was in charge of creating and maintaining their website and additional webpages. Aside from creating, updating, and maintaining the website, I was heavily involved in the daily graphic work that was used for advertising and website content. To create the website and ads, I relied on HTML, CSS, Bootstrap, Javascript, JQuery, Branch.io, Photoshop, Illustrator, and Sketch.</p>
-
-                        </div>
-
-                        <div class="col-lg-4 text-right job-title">
-
-                            <p class="section-title">Operations Manager</p>
-
-                            <p class="work-date">September 2015 - January 2017</p>
-
-                        </div>
-
-                        <div class="col-lg-8 work-name">
-
-                            <a href="" target="_blank"><p class="section-label">No Limit Customs</a></p>
-
-                            <p class="work-location"><i class="fa fa-map-marker"></i><span>North Myrtle Beach, SC</span>
-
-                            <p class="section-info">Even though No Limit is a custom automotive shop, I was in charge of project scheduling, handling online sales, shipments, and also created the designs for the images used in online stores and ads.</p>
-
-                        </div>
-
-                        <div class="col-lg-4 text-right job-title">
-
-                            <p class="section-title">Parts Associate</p>
-
-                            <p class="work-date">July 2014 - June 2015</p>
-
-                        </div>
-
-                        <div class="col-lg-8 work-name">
-
-                            <a href="" target="_blank"><p class="section-label">Hadwin-White Buick, GMC, Subaru</a></p>
-
-                            <p class="work-location"><i class="fa fa-map-marker"></i><span>Conway, SC</span>
-
-                            <p class="section-info">Worked closely with the Parts Manager to ensure we were being as efficient and accurate as possible with our work. I handled all shipments, ordering, and assisting co-workers and customers with any parts needs.</p>
-
-                        </div>
-
-                        <div class="col-lg-4 text-right job-title">
-
-                            <p class="section-title">Night Manager</p>
-
-                            <p class="work-date">September 2007 - July 2014</p>
-
-                        </div>
-
-                        <div class="col-lg-8 work-name">
-
-                            <a href="" target="_blank"><p class="section-label">J & P Management, Inc., DBA Jersey Mike's</a></p>
-
-                            <p class="work-location"><i class="fa fa-map-marker"></i><span>North Myrtle Beach, SC</span>
-
-                            <p class="section-info">Assigned duties for co-workers to have completed by the end of the shift, counted the money at the end of the shift, and handled any issues that may arise.</p>
+                            <p class="section-info">{{x.jobDescription}}</p>
 
                         </div>
 
