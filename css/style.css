@@ -42,6 +42,11 @@ ul {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	opacity: 1;
+	cursor: pointer;
 }
 
 #topcontrol .fa-angle-up {
