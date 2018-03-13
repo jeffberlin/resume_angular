@@ -313,7 +313,7 @@
                                             <h5>{{x.title}}</h5>
                                         </a>
 
-                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="{{x.modalName}}">here</span> for more info about the project!</p>
+                                        <p>Click <span class="modal-link" data-toggle="modal" data-target="#{{x.modalName}}">here</span> for more info about the project!</p>
 
                                     </div>
 
@@ -327,390 +327,29 @@
 
                 </section>
 
-        <!-- Modal for TRU Colors Brewing Website -->
-                <div class="modal fade" id="TruColorsSiteModalCenter" tabindex="-1" role="dialog" aria-labelledby="TruColorsSiteModalCenterTitle" aria-hidden="true">
+        <!-- Modal for projects -->
+                <div ng-repeat="x in projects">
 
-                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal fade" id="{{x.modalName}}" tabindex="-1" role="dialog" aria-labelledby="{{x.modalCenterTitle}}" aria-hidden="true">
 
-                        <div class="modal-content">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
 
-                            <div class="modal-header">
+                            <div class="modal-content">
 
-                                <h5 class="modal-title" id="TruColorsSiteModalLongTitle">TRU Colors Brewing Website</h5>
+                                <div class="modal-header">
 
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                                    <h5 class="modal-title" id="{{x.modalLongTitle}}">{{x.modalTitleName}}</h5>
 
-                            </div>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
 
-                            <div class="modal-body">
-                                Built using HTML, CSS, Bootstrap 3, Javascript, and JQuery.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
+                                </div>
 
-                        </div>
+                                <div class="modal-body">
+                                    {{x.modalBody}}<br><br>
+                                </div>
 
-                    </div>
-
-                </div>
-
-        <!-- Modal for JOMO homepage Website -->
-                <div class="modal fade" id="JomoHomeModalCenter" tabindex="-1" role="dialog" aria-labelledby="JomoHomeModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="JomoHomeModalLongTitle">JOMO's Homepage</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Branch.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for JOMO Charlotte Website -->
-                <div class="modal fade" id="JomoCharlotteModalCenter" tabindex="-1" role="dialog" aria-labelledby="JomoCharlotteModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="JomoCharlotteModalLongTitle">JOMO's Charlotte Giveaway Page</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Branch, and Vimeo.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for JOMO Rep Website -->
-                <div class="modal fade" id="JomoRepModalCenter" tabindex="-1" role="dialog" aria-labelledby="JomoRepModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="JomoRepModalLongTitle">JOMO's Campus Rep Page</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Formspree, and Branch.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for Wilm Brewery's Website -->
-                <div class="modal fade" id="wilmBrewModalCenter" tabindex="-1" role="dialog" aria-labelledby="WilmBrewModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="wilmBrewModalLongTitle">Wilmington Brewers Page</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for JBR's Website -->
-                <div class="modal fade" id="jeffBerlinRallyModalCenter" tabindex="-1" role="dialog" aria-labelledby="jeffBerlinRallyModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="jeffBerlinRallyModalLongTitle">Jeff Berlin Rally</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                This website was built using WordPress, WordPress Plugins, and custom HTML and CSS.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for Movie Trailer's Website -->
-                <div class="modal fade" id="movieTrailerModalCenter" tabindex="-1" role="dialog" aria-labelledby="movieTrailerModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="movieTrailerModalLongTitle">Movie Trailer Page</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Built using HTML, CSS, Bootstrap, and Python.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for Frogger Javascript Website -->
-                <div class="modal fade" id="froggerModalCenter" tabindex="-1" role="dialog" aria-labelledby="froggerModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="froggerModalLongTitle">Frogger Javascript Game</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Built using HTML, CSS, Bootstrap, and Python.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for Javascript Resume Website -->
-                <div class="modal fade" id="resumeModalCenter" tabindex="-1" role="dialog" aria-labelledby="resumeModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="resumeModalLongTitle">Javascript Resume</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Built using HTML, CSS, Javascript, JQuery, and Google Maps API.<br><br>
-                                Click the screenshot or title to view the live website!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for Javascript Resume Website -->
-                <div class="modal fade" id="truBrochureModalCenter" tabindex="-1" role="dialog" aria-labelledby="truBrochureModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="truBrochureModalLongTitle">TRU Colors Brewing Brochure</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                A brochure created using Adobe InDesign, along with Adobe Photoshop.<br><br>
-                                Click the screenshot or title to view the PDF!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for App Slab & Timber logo -->
-                <div class="modal fade" id="appLogoModalCenter" tabindex="-1" role="dialog" aria-labelledby="appLogoModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="appLogoModalLongTitle">Appalachian Slab & Timber Logo</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                A logo I created for a timber company using Adobe Illustrator and Photoshop.<br><br>
-                                Click the screenshot or title to view the full size image!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for App Slab & Timber brand logo -->
-                <div class="modal fade" id="appBrandModalCenter" tabindex="-1" role="dialog" aria-labelledby="appBrandModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="appBrandModalLongTitle">Appalachian Slab & Timber Branding Logo</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                The branding logo I created for a timber company using Adobe Illustrator and Photoshop.<br><br>
-                                Click the screenshot or title to view the full size image!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for Wilmington Brew logo -->
-                <div class="modal fade" id="ilmBrewModalCenter" tabindex="-1" role="dialog" aria-labelledby="ilmBrewModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="ilmBrewModalLongTitle">Wilmington Breweries Logo</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                A logo for a project website that I created. This was created using Adobe Photoshop and Sketch.<br><br>
-                                Click the screenshot or title to view the full size image!
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-        <!-- Modal for JOMO Fade Out -->
-                <div class="modal fade" id="JomoFadeOutModalCenter" tabindex="-1" role="dialog" aria-labelledby="JomoFadeOutModalCenterTitle" aria-hidden="true">
-
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-
-                                <h5 class="modal-title" id="JomoFadeOutModalLongTitle">JOMO Prizes Video Fade-Out</h5>
-
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                Created for the JOMO prize giveaway videos to be used as the fade-out screen for each video.<br><br>
-                                Click the screenshot or title to view the full size image!
                             </div>
 
                         </div>
@@ -728,7 +367,6 @@
             </div>
 
         </div>
-
 
 
         <!-- Bootstrap 4 JS -->

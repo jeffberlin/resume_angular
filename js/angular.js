@@ -100,99 +100,224 @@ app.controller('resumeCtrl', function($scope, $document) {
 			image: './images/tcb_screenshot.png',
 			url: 'https://www.trucolors.co',
 			category: ['development', 'design'],
-			modalName: '#TruColorsSiteModalCenter',
-			
+		// next lines are to handle the pop-up modals
+			modalName: 'TruColorsSiteModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'TruColorsSiteModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'TruColorsSiteModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'TRU Colors Brewing Website',
+		// body inside the modal
+			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, and JQuery.'
 		},
 		{
 			title: 'JOMO',
 			image: './images/jomo_screenshot.png',
 			url: 'https://jeffberlin.github.io/JOMO_website/index.html',
 			category: 'development',
-			modalName: '#JomoHomeModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'JomoHomeModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'JomoHomeModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'JomoHomeModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'JOMO\'s Homepage',
+		// body inside the modal
+			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Branch.'
 		},
 		{
 			title: 'JOMO Charlotte Giveaway',
 			image: './images/jomo_charlotte_screenshot.png',
 			url: 'https://jeffberlin.github.io/JOMO_website/charlotte.html',
 			category: 'development',
-			modalName: '#JomoCharlotteModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'JomoCharlotteModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'JomoCharlotteModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'JomoCharlotteModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'JOMO\'s Charlotte Giveaway Page',
+		// body inside the modal
+			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Branch, and Vimeo embedding.'
 		},
 		{
 			title: 'JOMO Video Fade-out',
 			image: './images/video_fade_green_400.jpg',
 			url: './images/video_fade_green.jpg',
 			category: 'design',
-			modalName: '#JomoFadeOutModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'JomoFadeOutModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'JomoFadeOutModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'JomoFadeOutModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'JOMO Prizes Video Fade-Out',
+		// body inside the modal
+			modalBody: 'Created for the JOMO prize giveaway videos to be used as the fade-out screen for each video. This was made using Adobe Photoshop and Illustrator.'
 		},
 		{
 			title: 'JOMO Campus Rep',
 			image: './images/jomo_rep_screenshot.png',
 			url: 'https://jeffberlin.github.io/JOMO_website/rep.html',
 			category: 'development',
-			modalName: '#JomoRepModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'JomoRepModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'JomoRepModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'JomoRepModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'JOMO\'s Campus Rep Page',
+		// body inside the modal
+			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Formspree, and Branch.'
 		},
 		{
 			title: 'Wilmington Breweries',
 			image: './images/wilm_brew_screenshot.png',
 			url: 'https://jeffberlin.github.io/Wilmington-Breweries/',
 			category: ['development', 'design'],
-			modalName: '#wilmBrewModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'wilmBrewModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'wilmBrewModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'wilmBrewModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Wilmington Brewers Website',
+		// body inside the modal
+			modalBody: 'Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.'
 		},
 		{
 			title: 'JBR',
 			image: './images/jbrally_screenshot.png',
 			url: 'http://jbrally.com/',
 			category: ['development', 'design'],
-			modalName: '#jeffBerlinRallyModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'jeffBerlinRallyModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'jeffBerlinRallyModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'jeffBerlinRallyModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Jeff Berlin Rally Website',
+		// body inside the modal
+			modalBody: 'This website was built using WordPress, WordPress Plugins, and custom HTML and CSS.'
 		},
 		{
 			title: 'TCB Brochure',
 			image: './images/tcb_brochure.png',
 			url: './images/tru-colors-brochure.pdf',
 			category: 'design',
-			modalName: '#truBrochureModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'tcbBrochureModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'tcbBrochureModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'tcbBrochureModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'TRU Colors Brewing Brochure',
+		// body inside the modal
+			modalBody: 'Created this company brochure using Adobe InDesign and Photoshop.'
 		},
 		{
 			title: 'Movie Trailers',
 			image: './images/movie_trailers_screenshot.png',
 			url: 'ttps://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
 			category: 'development',
-			modalName: '#movieTrailerModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'movieTrailerModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'movieTrailerModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'movieTrailerModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Movie Trailer Website',
+		// body inside the modal
+			modalBody: 'Built using HTML, CSS, Bootstrap, Python, and YouTube video embedding.'
 		},
 		{
 			title: 'Appalachian Slab & Timber',
 			image: './images/app_st_logo.png',
 			url: './images/applogo.jpg',
 			category: 'design',
-			modalName: '#appLogoModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'appLogoModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'appLogoModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'appLogoModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Appalachian Slab & Timber Logo',
+		// body inside the modal
+			modalBody: 'A logo I created for a timber company using Adobe Illustrator and Photoshop.'
 		},
 		{
 			title: 'Appalachian Slab & Timber',
 			image: './images/app_brand_logo.png',
 			url: './images/app_brandlogo.jpg',
 			category: 'design',
-			modalName: '#appBrandModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'appBrandModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'appBrandModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'appBrandModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Appalachian Slab & Timber Branding Logo',
+		// body inside the modal
+			modalBody: 'The branding logo I created for a timber company using Adobe Illustrator and Photoshop.'
 		},
 		{
 			title: 'Javascript Resume',
 			image: './images/javascript_resume_screenshot.png',
 			url: 'https://jeffberlin.github.io/javascript-resume/',
 			category: ['development', 'design'],
-			modalName: '#resumeModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'javascriptResumeModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'javascriptResumeCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'javascriptResumeModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Javascript Resume Website',
+		// body inside the modal
+			modalBody: 'An online resume that was created to show my work history, projects, and education. Built using Javascript, JQuery, HTML, CSS, and Google Maps API.'
 		},
 		{
 			title: 'Frogger Javascript Game',
 			image: './images/frogger_screenshot.png',
 			url: 'https://jeffberlin.github.io/Frogger-JavaScript/',
 			category: ['development', 'design'],
-			modalName: '#froggerModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'froggerGameModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'froggerGameCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'froggerGameModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Frogger Javascript Game',
+		// body inside the modal
+			modalBody: 'Try playing this Frogger-like game that was built using Javascript.'
 		},
 		{
 			title: 'Wilmington Brew',
 			image: './images/ilm_brew_logo-400.png',
 			url: './images/ilm_brew_logo.jpg',
 			category: 'design',
-			modalName: '#ilmBrewModalCenter'
+		// next lines are to handle the pop-up modals
+			modalName: 'ilmBrewModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'ilmBrewCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'ilmBrewModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Wilmington Breweries Logo',
+		// body inside the modal
+			modalBody: 'A logo for a project website that I created. This was created using Adobe Photoshop and Sketch.'
 		}
 
 	];
