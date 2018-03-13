@@ -1,3 +1,11 @@
+@media (min-width: 992px) {
+
+	.md-screen {
+		display: none;
+	}
+
+}
+
 @media (max-width: 991px) {
 
 	.container {
@@ -6,6 +14,21 @@
 
 	.location {
 		margin-top: 1.5rem;
+	}
+
+	.job-title {
+		display: none;
+	}
+
+	.work-name {
+		padding: 0 1rem 1rem;
+		padding-bottom: 0;
+		margin-bottom: 1rem;
+		border-bottom: 1px solid #e8e8e8;
+	}
+
+	.section-info:last-child {
+		border-bottom: none;
 	}
 
 }

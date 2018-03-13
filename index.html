@@ -221,7 +221,7 @@
 
                     <h2 class="section-header">Experience</h2>
 
-                    <div class="row justify-content-between" ng-repeat="x in workExperience">
+                    <div class="row" ng-repeat="x in workExperience">
 
                         <div class="col-lg-4 text-right job-title">
 
@@ -234,6 +234,10 @@
                         <div class="col-lg-8 work-name">
 
                             <a ng-href="{{x.companyURL}}" target="_blank"><p class="section-label">{{x.company}}</a></p>
+
+                            <p class="section-title md-screen">{{x.jobTitle}}</p>
+
+                            <p class="work-date md-screen">{{x.workDate}}</p>
 
                             <p class="work-location"><i class="fa fa-map-marker"></i><span>{{x.workLocation}}</span>
 
