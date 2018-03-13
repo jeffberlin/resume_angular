@@ -100,7 +100,8 @@ app.controller('resumeCtrl', function($scope, $document) {
 			image: './images/tcb_screenshot.png',
 			url: 'https://www.trucolors.co',
 			category: ['development', 'design'],
-			modalName: '#truBrochureModalCenter'
+			modalName: '#TruColorsSiteModalCenter',
+			
 		},
 		{
 			title: 'JOMO',
