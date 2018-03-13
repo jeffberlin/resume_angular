@@ -393,7 +393,7 @@ ul {
 	cursor: pointer;
 }
 
-.projects figure {
+.projects figure, .modal-body img {
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 
@@ -405,8 +405,17 @@ ul {
 	letter-spacing: .75px;
 }
 
-.description p, .modal-body {
+.modal-body {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	letter-spacing: .7px;
+}
+
+.modal-body p {
+	color: #009688;
+	font-size: 14pt;
+}
+
+.modal-body a:hover {
+	text-decoration: underline;
 }
