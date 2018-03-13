@@ -24,11 +24,7 @@
 		padding: 0 1rem 1rem;
 		padding-bottom: 0;
 		margin-bottom: 1rem;
-		border-bottom: 1px solid #e8e8e8;
-	}
-
-	.section-info:last-child {
-		border-bottom: none;
+		/*border-bottom: 1px solid #e8e8e8;*/
 	}
 
 }
