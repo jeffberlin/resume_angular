@@ -390,6 +390,7 @@ ul {
 	margin-top: 1.5rem;
 	padding: .3rem .3rem 1rem .3rem;
 	background-color: #009688;
+	cursor: pointer;
 }
 
 .projects figure {
@@ -404,22 +405,8 @@ ul {
 	letter-spacing: .75px;
 }
 
-.description p {
-	margin-bottom: 0;
-	padding: 0 .5rem 0 .5rem;
-}
-
 .description p, .modal-body {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	letter-spacing: .7px;
-}
-
-.modal-link {
-	cursor: pointer;
-	text-decoration: underline;
-}
-
-.modal-link:hover {
-	color: lightgrey;
 }
