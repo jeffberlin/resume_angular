@@ -117,6 +117,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalName: '#JomoCharlotteModalCenter'
 		},
 		{
+			title: 'JOMO Video Fade-out',
+			image: './images/video_fade_green_400.jpg',
+			url: './images/video_fade_green.jpg',
+			category: 'design',
+			modalName: '#JomoFadeOutModalCenter'
+		},
+		{
 			title: 'JOMO Campus Rep',
 			image: './images/jomo_rep_screenshot.png',
 			url: 'https://jeffberlin.github.io/JOMO_website/rep.html',
@@ -138,32 +145,18 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalName: '#jeffBerlinRallyModalCenter'
 		},
 		{
-			title: 'Movie Trailers',
-			image: './images/movie_trailers_screenshot.png',
-			url: 'ttps://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
-			category: 'development',
-			modalName: '#movieTrailerModalCenter'
-		},
-		{
-			title: 'Frogger Javascript Game',
-			image: './images/frogger_screenshot.png',
-			url: 'https://jeffberlin.github.io/Frogger-JavaScript/',
-			category: ['development', 'design'],
-			modalName: '#froggerModalCenter'
-		},
-		{
-			title: 'Javascript Resume',
-			image: './images/javascript_resume_screenshot.png',
-			url: 'https://jeffberlin.github.io/javascript-resume/',
-			category: ['development', 'design'],
-			modalName: '#resumeModalCenter'
-		},
-		{
 			title: 'TCB Brochure',
 			image: './images/tcb_brochure.png',
 			url: './images/tru-colors-brochure.pdf',
 			category: 'design',
 			modalName: '#truBrochureModalCenter'
+		},
+		{
+			title: 'Movie Trailers',
+			image: './images/movie_trailers_screenshot.png',
+			url: 'ttps://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
+			category: 'development',
+			modalName: '#movieTrailerModalCenter'
 		},
 		{
 			title: 'Appalachian Slab & Timber',
@@ -178,6 +171,20 @@ app.controller('resumeCtrl', function($scope, $document) {
 			url: './images/app_brandlogo.jpg',
 			category: 'design',
 			modalName: '#appBrandModalCenter'
+		},
+		{
+			title: 'Javascript Resume',
+			image: './images/javascript_resume_screenshot.png',
+			url: 'https://jeffberlin.github.io/javascript-resume/',
+			category: ['development', 'design'],
+			modalName: '#resumeModalCenter'
+		},
+		{
+			title: 'Frogger Javascript Game',
+			image: './images/frogger_screenshot.png',
+			url: 'https://jeffberlin.github.io/Frogger-JavaScript/',
+			category: ['development', 'design'],
+			modalName: '#froggerModalCenter'
 		},
 		{
 			title: 'Wilmington Brew',
