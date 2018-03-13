@@ -242,7 +242,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		{
 			title: 'Movie Trailers',
 			image: './images/movie_trailers_screenshot.png',
-			url: 'ttps://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
+			url: 'https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
 			category: 'development',
 		// next lines are to handle the pop-up modals
 			modalName: 'movieTrailerModalCenter',
