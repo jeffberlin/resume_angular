@@ -111,7 +111,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, and JQuery.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'JOMO',
@@ -129,7 +129,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Branch.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'JOMO Charlotte Giveaway',
@@ -147,7 +147,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Branch, and Vimeo embedding.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'JOMO Video Fade-out',
@@ -165,7 +165,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Created for the JOMO prize giveaway videos to be used as the fade-out screen for each video. This was made using Adobe Photoshop and Illustrator.',
 		// handles the link description in modal
-			modalView: 'View Image'
+			modalViewType: 'Image'
 		},
 		{
 			title: 'JOMO Campus Rep',
@@ -183,7 +183,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Formspree, and Branch.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'Wilmington Breweries',
@@ -201,7 +201,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'JBR',
@@ -219,7 +219,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'This website was built using WordPress, WordPress Plugins, and custom HTML and CSS.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'TCB Brochure',
@@ -237,7 +237,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Created this company brochure using Adobe InDesign and Photoshop.',
 		// handles the link description in modal
-			modalView: 'View PDF'
+			modalViewType: 'PDF'
 		},
 		{
 			title: 'Movie Trailers',
@@ -255,7 +255,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Built using HTML, CSS, Bootstrap, Python, and YouTube video embedding.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'Appalachian Slab & Timber',
@@ -273,7 +273,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'A logo I created for a timber company using Adobe Illustrator and Photoshop.',
 		// handles the link description in modal
-			modalView: 'View Image'
+			modalViewType: 'Image'
 		},
 		{
 			title: 'Appalachian Slab & Timber',
@@ -291,7 +291,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'The branding logo I created for a timber company using Adobe Illustrator and Photoshop.',
 		// handles the link description in modal
-			modalView: 'View Image'
+			modalViewType: 'Image'
 		},
 		{
 			title: 'Javascript Resume',
@@ -309,7 +309,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'An online resume that was created to show my work history, projects, and education. Built using Javascript, JQuery, HTML, CSS, and Google Maps API.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'Frogger Javascript Game',
@@ -327,7 +327,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'Try playing this Frogger-like game that was built using Javascript.',
 		// handles the link description in modal
-			modalView: 'View Website'
+			modalViewType: 'Website'
 		},
 		{
 			title: 'Wilmington Brew Logo',
@@ -345,7 +345,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'A logo for a project website that I created. This was created using Adobe Photoshop and Sketch.',
 		// handles the link description in modal
-			modalView: 'View Image'
+			modalViewType: 'Image'
 		}
 
 	];
