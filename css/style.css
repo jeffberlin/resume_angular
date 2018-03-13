@@ -411,11 +411,15 @@ ul {
 	letter-spacing: .7px;
 }
 
-.modal-body p {
+.modal-link {
 	color: #009688;
 	font-size: 14pt;
 }
 
-.modal-body a:hover {
-	text-decoration: underline;
+.modal-link a:hover {
+	border-bottom: 1px solid #009688;
+}
+
+.modal-link:active {
+	transform: translateY(.2rem);
 }
