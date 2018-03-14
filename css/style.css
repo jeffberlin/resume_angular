@@ -221,7 +221,7 @@ ul {
 
 /* NAV BAR */
 
-.page-nav {
+.page-nav, .mobile-nav {
 	background-color: #00635a;
 }
 
@@ -240,6 +240,20 @@ ul {
 .nav-item:hover {
 	text-shadow: 2px 2px 2px #04423c;
 	transform: perspective(500px) translateZ(3rem);
+}
+
+.mobile-nav {
+	list-style: none;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.nav-dash {
+	border-bottom: 2px solid lightgrey;
+	width: 2.2rem;
+	padding-top: .4rem;
 }
 
 /* Resume section */
