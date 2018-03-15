@@ -389,7 +389,19 @@ $("#topcontrol").click(function() {
 	}, 'slow')
 })
 
+$("#mobile-topcontrol").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#top-page").offset().top
+	}, 'slow')
+})
+
 $("#skills-button").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#skills").offset().top
+	}, 'slow')
+})
+
+$("#mobile-skills-button").click(function() {
 	$('html, body').animate({
 		scrollTop: $("#skills").offset().top
 	}, 'slow')
@@ -401,13 +413,31 @@ $("#experience-button").click(function() {
 	}, 'slow')
 })
 
+$("#mobile-experience-button").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#experience").offset().top
+	}, 'slow')
+})
+
 $("#education-button").click(function() {
 	$('html, body').animate({
 		scrollTop: $("#education").offset().top
 	}, 'slow')
 })
 
+$("#mobile-education-button").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#education").offset().top
+	}, 'slow')
+})
+
 $("#portfolio-button").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#portfolio").offset().top
+	}, 'slow')
+})
+
+$("#mobile-portfolio-button").click(function() {
 	$('html, body').animate({
 		scrollTop: $("#portfolio").offset().top
 	}, 'slow')

@@ -23,13 +23,13 @@ ul {
 	padding: 0;
 }
 
-.download-btn, .contact-info li, .page-nav {
+.download-btn, .contact-info li, .page-navigation, #main-menu li {
 	font-family: 'Sansita', sans-serif;
 	color: #ffffff;
 	letter-spacing: .7px;
 }
 
-#topcontrol {
+#topcontrol, .mobile-menu {
 	background-color: #00635a;
 	text-align: center;
 	display: inline-block;
@@ -49,12 +49,25 @@ ul {
 	cursor: pointer;
 }
 
+.mobile-menu {
+	top: 10px;
+	right: 10px;
+}
+
 #topcontrol .fa-angle-up {
-	position: relative;
 	font-size: 25px;
-	font-weight: normal;
 	top: 3px;
+}
+
+#topcontrol .fa-angle-up, .mobile-menu .fa-bars {
+	position: relative;
 	color: #ffffff;
+	font-weight: normal;
+}
+
+.mobile-menu .fa-bars {
+	font-size: 22px;
+	top: 6px;
 }
 
 /* REMOVE BANNER WHEN FINISHED */
@@ -164,64 +177,9 @@ ul {
 	margin-right: .8rem;
 }
 
-.arrow {
-	opacity: .8;
-	bottom: 0;
-	visibility: hidden;
-}
-
-.bounce {
-	-webkit-animation-name: bounce;
-	-moz-animation-name: bounce;
-	-o-animation-name: bounce;
-	animation-name: bounce;
-}
-
-.animated{
-	-webkit-animation-fill-mode:both;
-	-moz-animation-fill-mode:both;
-	-ms-animation-fill-mode:both;
-	-o-animation-fill-mode:both;
-	animation-iteration-count: infinite;
-	-moz-animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-	animation-fill-mode:both;
-	-webkit-animation-duration:2s;
-	-moz-animation-duration:2s;
-	-ms-animation-duration:2s;
-	-o-animation-duration:2s;
-	animation-duration:2s;
-}
-
-@-webkit-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	40% {-webkit-transform: translateY(-30px);}
-	60% {-webkit-transform: translateY(-15px);}
-}
-
-@-moz-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
-	40% {-moz-transform: translateY(-30px);}
-	60% {-moz-transform: translateY(-15px);}
-}
-
-@-o-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
-	40% {-o-transform: translateY(-30px);}
-	60% {-o-transform: translateY(-15px);}
-}
-@keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
-}
-
-.arrow:hover {
-	cursor: pointer;
-}
-
 /* NAV BAR */
 
-.page-nav, .mobile-nav {
+.page-navigation {
 	background-color: #00635a;
 }
 
@@ -242,18 +200,25 @@ ul {
 	transform: perspective(500px) translateZ(3rem);
 }
 
-.mobile-nav {
+#main-menu {
+	background-color: #00635a;
+	text-align: center;
+	padding: .8rem;
+	z-index: 30;
+	position: absolute;
+	top: 3.8rem;
+	width: 100%;
 	list-style: none;
-	padding-top: .8rem;
-	padding-bottom: .8rem;
-	margin-bottom: 0;
-	display: inline-block;
+	position: fixed;
 }
 
-.nav-dash {
-	border-bottom: 2px solid lightgrey;
-	width: 2.2rem;
-	padding-top: .4rem;
+#main-menu li {
+	font-size: 20px;
+	border-bottom: 1px solid lightgrey;
+}
+
+#mobile-topcontrol {
+	border-bottom: none !important;
 }
 
 /* Resume section */
