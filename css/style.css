@@ -210,6 +210,7 @@ ul {
 	width: 100%;
 	list-style: none;
 	position: fixed;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 #main-menu li {
