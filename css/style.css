@@ -201,6 +201,10 @@ ul {
 	padding-bottom: .5rem;
 }
 
+#main-menu li:last-child {
+	border-bottom: none;
+}
+
 #mobile-topcontrol {
 	border-bottom: none !important;
 }
