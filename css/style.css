@@ -196,16 +196,13 @@ ul {
 
 #main-menu li {
 	font-size: 20px;
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid #b7b7b7;
+	margin-bottom: .5rem;
+	padding-bottom: .5rem;
 }
 
 #mobile-topcontrol {
 	border-bottom: none !important;
-}
-
-.is-blurred {
-	filter: blur(2px);
-	-webkit-filter: blur(2px);
 }
 
 /* Resume section */
