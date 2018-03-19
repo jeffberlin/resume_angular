@@ -122,6 +122,10 @@
 		/*20px*/
 	}
 
+	.description h5 {
+		font-size: 1.25rem;
+	}
+
 }
 
 @media (max-width: 570px) {
