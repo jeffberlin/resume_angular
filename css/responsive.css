@@ -84,6 +84,28 @@
 		padding-left: 3.8rem;
 	}
 
+	.info-section {
+		padding: 1rem;
+	}
+
+	.section-header {
+		font-size: 26pt !important;
+	}
+
+	.about-info, .section-info, .section-date, .work-date, .work-location span {
+		/*font-size: 14px;*/
+	}
+
+	.section-label {
+		font-size: 20px;
+		/*22px*/
+	}
+
+	.section-title {
+		font-size: 18px;
+		/*20px*/
+	}
+
 }
 
 @media (max-width: 570px) {
@@ -98,14 +120,6 @@
 
 	.container {
 		max-width: 540px;
-	}
-
-}
-
-@media (max-width: 575px) {
-
-	.info-section {
-		padding: 1rem;
 	}
 
 }
