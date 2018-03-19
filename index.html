@@ -43,21 +43,6 @@
 
         <div ng-app="resume" ng-controller="resumeCtrl">
 
-            <!-- <div class="banner container-fluid" id="top-page">
-
-                <div class="row align-items-center">
-
-                    <div class="col align-self-center text-center">
-
-                        <p class="align-middle">Some features may not work, since this page is not 100% finished!</p>
-
-                    </div>
-
-                </div>
-
-            </div> -->
-
-
             <header class="header-info container-fluid" id="top-page">
 
                 <div class="row justify-content-between header">
@@ -138,7 +123,7 @@
 
                 <div id="navigation">
 
-                    <div class="mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="bs-navbar" aria-expanded="false">
+                    <div class="mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 
                         <i class="fa fa-bars"></i>
 
@@ -323,7 +308,7 @@
 
                         <div class="row portfolio-preview">
 
-                            <div class="col-lg-4 col-md-6 col-sm-6 text-center" ng-repeat="x in projects | filter:groupFilter">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center" ng-repeat="x in projects | filter:groupFilter">
 
                                 <div class="projects tab-content active" data-toggle="modal" data-target="#{{x.modalName}}">
 

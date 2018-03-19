@@ -45,6 +45,14 @@
 
 }
 
+@media (max-width: 719px) {
+
+	.description h5 {
+		margin-bottom: 0px !important;
+	}
+
+}
+
 @media (max-width: 583px) {
 
 	#page-nav {
@@ -55,12 +63,25 @@
 		display: none;
 	}
 
+	.info-layout {
+		padding: 2.5rem 0 0;
+	}
+
 }
 
 @media (min-width: 584px) {
 
 	#navigation {
 		display: none;
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	.col-sm-6 {
+		padding-right: 3.8rem;
+		padding-left: 3.8rem;
 	}
 
 }
@@ -117,6 +138,16 @@
 	.phone {
 		margin-top: 1.5rem;
 	}
+
+}
+
+@media (max-width: 440px) {
+
+	.col-sm-6 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
 }
 
 @media (max-width: 407px) {
@@ -134,20 +165,3 @@
 	}
 
 }
-
-/*@media (max-height: 812px) {
-
-	#topcontrol {
-		right: 10pt;
-		bottom: 47pt;
-	}
-
-}
-
-@media (max-height: 810px) {
-
-	#topcontrol {
-		right: 10pt;
-		bottom: 5pt;
-	}
-}*/

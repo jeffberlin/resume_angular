@@ -443,6 +443,11 @@ $("#mobile-portfolio-button").click(function() {
 	}, 'slow')
 })
 
+// Background overlay on mobile menu
+$('#navigation').click(function() {
+	$(document).toggleClass('overlay')
+})
+
 // Code for portfolio modal's
 
 $('#myModal').on('shown.bs.modal', function () {

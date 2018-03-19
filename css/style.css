@@ -70,25 +70,6 @@ ul {
 	top: 6px;
 }
 
-/* REMOVE BANNER WHEN FINISHED */
-
-.banner {
-	background-color: #000000;
-	color: #ffffff;
-	padding: .4rem;
-}
-
-.banner p {
-	display: inline;
-}
-
-@media (max-width: 487px) {
-
-	.banner p {
-		font-size: 12px;
-	}
-}
-
 /* Header area */
 
 .header {
@@ -220,6 +201,11 @@ ul {
 
 #mobile-topcontrol {
 	border-bottom: none !important;
+}
+
+.is-blurred {
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
 }
 
 /* Resume section */
