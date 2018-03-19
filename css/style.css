@@ -230,6 +230,10 @@ ul {
 	margin-bottom: 1.2px !important;
 }
 
+.section-label, .description h5, .modal-title {
+	font-family: 'Noto Sans', sans-serif;
+}
+
 .section-title {
 	font-family: 'Playfair Display', serif;
 	/*font-style: italic;*/
@@ -238,6 +242,8 @@ ul {
 	color: #666666;
 	font-weight: 500;
 }
+
+/* .modal-link */
 
 .about-info, .section-info, .section-date, .work-date, .work-location span {
 	font-family: 'Playfair Display', serif;
@@ -297,8 +303,6 @@ ul {
 	font-size: 16px;
 	border-radius: .3rem;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-	/*text-shadow: 0 1px 1px #007D72;*/
-	/* for status bar style - background: linear-gradient(to right, #009688, #009688 40%, #ffffff 40%, #ffffff 60%); */
 }
 
 .work-date {
@@ -316,6 +320,7 @@ ul {
 	padding-left: 3rem;
 	padding-bottom: 2.5rem;
 }
+
 
 /*#map {
 	display: block;
@@ -370,11 +375,11 @@ ul {
 	color: #ffffff;
 }
 
-.description h5 {
-	letter-spacing: .75px;
+.description h5, .modal-title {
+	letter-spacing: .7px;
 }
 
-.modal-body {
+.modal-body, .modal-link {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	letter-spacing: .7px;
@@ -387,8 +392,4 @@ ul {
 
 .modal-link a:hover {
 	border-bottom: 1px solid #009688;
-}
-
-.modal-link:active {
-	transform: translateY(.2rem);
 }
