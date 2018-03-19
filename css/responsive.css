@@ -1,3 +1,11 @@
+@media (max-width: 1199px) {
+
+	.description h5 {
+		font-size: 1.1rem;
+	}
+
+}
+
 @media (min-width: 992px) {
 
 	.md-screen {
@@ -49,6 +57,14 @@
 
 	.description h5 {
 		margin-bottom: 0px !important;
+	}
+
+}
+
+@media (max-width: 693px) {
+
+	.description h5 {
+		font-size: .8rem;
 	}
 
 }
