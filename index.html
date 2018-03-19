@@ -52,23 +52,23 @@
                         <ul class="social">
 
                             <li class="social-icon">
-                                <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank" alt="LinkedIn Profile" title="LinkedIn Profile"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
 
                             <li class="social-icon">
-                                <a href="https://github.com/jeffberlin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                <a href="https://github.com/jeffberlin" target="_blank" alt="Github Profile" title="Github Profile"><i class="fa fa-github" aria-hidden="true"></i></a>
                             </li>
 
                             <li class="social-icon">
-                                <a href="https://stackoverflow.com/story/jeff-berlin" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                                <a href="https://stackoverflow.com/story/jeff-berlin" target="_blank" alt="Stack Overflow Profile" title="Stack Overflow Profile"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                             </li>
 
                             <li class="social-icon">
-                                <a href="https://angel.co/jeffrey-berlin-1" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></a>
+                                <a href="https://angel.co/jeffrey-berlin-1" target="_blank" alt="AngelList Profile" title="AngelList Profile"><i class="fa fa-angellist" aria-hidden="true"></i></a>
                             </li>
 
                             <li class="social-icon">
-                                <a href="https://www.behance.net/emericajb8bf5d" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                <a href="https://www.behance.net/emericajb8bf5d" target="_blank" alt="Behance Profile" title="Behance Profile"><i class="fa fa-behance" aria-hidden="true"></i></a>
                             </li>
 
                         </ul>
@@ -77,7 +77,7 @@
 
                     <div class="col-lg-4 col-md-4 col-xs-12 text-center">
 
-                        <a href="images/jeff_berlin_resume.pdf" download="jeff_berlin_resume"><button class="download-btn">Download My Resume</button></a>
+                        <a href="images/jeff_berlin_resume.pdf" download="jeff_berlin_resume" alt="Download Resume PDF" title="Download Resume PDF"><button class="download-btn">Download My Resume</button></a>
 
                     </div>
 
@@ -87,7 +87,7 @@
 
                     <div class="container">
 
-                        <img class="headshot rounded-circle img-thumbnail" src="images/jb230.jpg">
+                        <img class="headshot rounded-circle img-thumbnail" src="images/jb230.jpg" alt="Jeff Berlin headshot" title="Jeff Berlin headshot">
 
                         <h1 class="name">{{myName()}}</h1>
 
@@ -97,13 +97,13 @@
 
                             <li class="email">
 
-                                <a href="mailto:jeff@jbrally.com"><span class="fa fa-envelope"></span>{{email}}</a>
+                                <a href="mailto:jeff@jbrally.com" alt="email" title="E-mail me"><span class="fa fa-envelope"></span>{{email}}</a>
 
                             </li>
 
                             <li class="phone">
 
-                                <a href="tel:1-302-463-5129"><span class="fa fa-phone"></span>{{phone}}</a>
+                                <a href="tel:1-302-463-5129" alt="Phone number" title="Call me"><span class="fa fa-phone"></span>{{phone}}</a>
 
                             </li>
 
@@ -150,13 +150,13 @@
                             
                             <ul id="page-nav">
 
-                                <li class="nav-item"><a id="skills-button">Skills</a></li>
+                                <li class="nav-item"><a id="skills-button" alt="Scroll to Skills section" title="Scroll to Skills section">Skills</a></li>
 
-                                <li class="nav-item"><a id="experience-button">Experience</a></li>
+                                <li class="nav-item"><a id="experience-button" alt="Scroll to Experience section" title="Scroll to Experience section">Experience</a></li>
 
-                                <li class="nav-item"><a id="education-button">Education</a></li>
+                                <li class="nav-item"><a id="education-button" alt="Scroll to Education section" title="Scroll to Education section">Education</a></li>
 
-                                <li class="nav-item"><a id="portfolio-button">Portfolio</a></li>
+                                <li class="nav-item"><a id="portfolio-button" alt="Scroll to Portfolio section" title="Scroll to Portfolio section">Portfolio</a></li>
 
                             </ul>
 
@@ -293,22 +293,22 @@
                         <ul class="portfolio-nav filters text-center" ng-init="tab = 1">
 
                             <li class="filter active" ng-class="{active:panel.isSelected(1)}">
-                                <a ng-click="panel.selectTab(1); groupFilter = {}">All</a>
+                                <a ng-click="panel.selectTab(1); groupFilter = {}" alt="Show all projects" title="Show all projects">All</a>
                             </li>
 
                             <li class="filter" ng-class="{active:panel.isSelected(2)}">
-                                <a ng-click="panel.selectTab(2); groupFilter = {category:'development'}">Development</a>
+                                <a ng-click="panel.selectTab(2); groupFilter = {category:'development'}"  alt="Filter by developement projects" title="Show projects I coded">Development</a>
                             </li>
 
                             <li class="filter" ng-class="{active:panel.isSelected(3)}">
-                                <a ng-click="panel.selectTab(3); groupFilter = {category:'design'}">Design</a>
+                                <a ng-click="panel.selectTab(3); groupFilter = {category:'design'}" alt="Filter by design projects" title="Show projects I designed">Design</a>
                             </li>
 
                         </ul>
 
                         <div class="row portfolio-preview">
 
-                            <div class="project-box col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center" ng-repeat="x in projects | filter:groupFilter">
+                            <div class="project-box col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center" ng-repeat="x in projects | filter:groupFilter" title="Click for more info">
 
                                 <div class="projects tab-content active" data-toggle="modal" data-target="#{{x.modalName}}">
 
