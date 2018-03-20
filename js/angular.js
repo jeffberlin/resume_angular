@@ -22,7 +22,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for design skills
     $scope.otherSkills = [
-    	'Slack', 'MS Office', 'Automotive'
+    	'Slack', 'MS Office', 'Automotive', 'Logistics'
     ];
 
 // Array for Work Experience
