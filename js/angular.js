@@ -109,7 +109,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'TRU Colors Brewing Website',
 		// body inside the modal
-			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, and JQuery.',
+			modalBody: 'This website provides info and insights for TCB with forms to allow future apprentices and contractors to sign up for the program. Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Formspree.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
@@ -127,7 +127,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'JOMO\'s Homepage',
 		// body inside the modal
-			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Branch.',
+			modalBody: 'Before closing down, JOMO was a free mobile app start-up, geared towards creating a more active lifestyle for its users. This site was to help provide information and allow for easy signup/download for the app using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Branch.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
@@ -145,7 +145,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'JOMO\'s Charlotte Giveaway Page',
 		// body inside the modal
-			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Branch, and Vimeo embedding.',
+			modalBody: 'The JOMO Charlotte website provided users with a list of prizes and information on how to win them. Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Branch, and Vimeo embedding.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
@@ -163,7 +163,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'JOMO Prizes Video Fade-Out',
 		// body inside the modal
-			modalBody: 'Created for the JOMO prize giveaway videos to be used as the fade-out screen for each video. This was made using Adobe Photoshop and Illustrator.',
+			modalBody: 'Created for the JOMO Charlotte prize giveaway videos to be used as the fade-out screen for each video. This was created with Adobe Photoshop.',
 		// handles the link description in modal
 			modalViewType: 'Image'
 		},
@@ -181,7 +181,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'JOMO\'s Campus Rep Page',
 		// body inside the modal
-			modalBody: 'Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Formspree, and Branch.',
+			modalBody: 'This website was created to accumulate college campus representatives to help spread the word about the JOMO app and to create in-app events for other students to attend. It was built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Formspree, and Branch.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
@@ -199,7 +199,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'Wilmington Brewers Website',
 		// body inside the modal
-			modalBody: 'Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.',
+			modalBody: 'Are you a craft beer enthusiast? This website was originally created as a course project for my Udacity Frontend Web Development program, but I find that it comes in handy when you\'re just not quite sure where to grab some food or drinks (within the Wilmington, NC area). Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
@@ -217,7 +217,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'Jeff Berlin Rally Website',
 		// body inside the modal
-			modalBody: 'This website was built using WordPress, WordPress Plugins, and custom HTML and CSS.',
+			modalBody: 'This website is for Jeff Berlin Rally Team and provides media coverage for their events. It was built using WordPress, WordPress Plugins, and custom HTML and CSS.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
@@ -235,7 +235,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'TRU Colors Brewing Brochure',
 		// body inside the modal
-			modalBody: 'Created this company brochure using Adobe InDesign and Photoshop.',
+			modalBody: 'Created this company brochure to provide additional information about TRU Colors Brewing. This was made using Adobe InDesign and Photoshop.',
 		// handles the link description in modal
 			modalViewType: 'PDF'
 		},
@@ -253,7 +253,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'Movie Trailer Website',
 		// body inside the modal
-			modalBody: 'Built using HTML, CSS, Bootstrap, Python, and YouTube video embedding.',
+			modalBody: 'A project that was completed for the Udacity Full Stack Development course that display my 6 favorite movies and their movie trailers. Built using HTML, CSS, Bootstrap, Python, and YouTube video embedding.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
@@ -271,7 +271,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'Appalachian Slab & Timber Logo',
 		// body inside the modal
-			modalBody: 'A logo I created for a timber company using Adobe Illustrator and Photoshop.',
+			modalBody: 'A logo I created for a North Carolina timber company using Adobe Illustrator and Photoshop.',
 		// handles the link description in modal
 			modalViewType: 'Image'
 		},
@@ -289,7 +289,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'Appalachian Slab & Timber Branding Logo',
 		// body inside the modal
-			modalBody: 'The branding logo I created for a timber company using Adobe Illustrator and Photoshop.',
+			modalBody: 'This logo will be used by a North Carolina timber company to brand their logs. I created this logo using Adobe Illustrator and Photoshop.',
 		// handles the link description in modal
 			modalViewType: 'Image'
 		},
