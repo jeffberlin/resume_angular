@@ -8,7 +8,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     $scope.headLine = "Web Developer";
     $scope.email = "jeff@jbrally.com";
     $scope.phone = "(302) 463-5129";
-    $scope.location = "North Myrtle Beach, SC";
+    $scope.location = "Wilmington, NC";
 
 // Array for development skills
     $scope.developmentSkills = [
@@ -355,7 +355,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 	];
 
-	// Removes projects from view 
+	// Removes projects from view
 	$scope.removeProjectItem = function(project, event, index) {
 		$scope.projects.splice(index, 1);
 	};
