@@ -27,9 +27,17 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for Work Experience
 	$scope.workExperience = [
+    {
+      jobTitle: 'Programmer',
+      workDate: 'April 2018 - Present',
+      company: 'BMT Micro, Inc.',
+      companyURL: 'https://www.bmtmicro.com',
+      workLocation: 'Wilmington, NC',
+      jobDescription: 'BMT Micro is an ecommerce tool for software and game developers. We handle their shopping carts and payment transactions. My responsibility is to build a WordPress plugin, code automatic email responses, and maintain features to the company website.'
+    },
 		{
 			jobTitle: 'UI/UX Developer (Contractor)',
-			workDate: 'December 2017 - Present',
+			workDate: 'December 2017 - April 2018',
 			company: 'TRU Colors Brewing Co.',
 			companyURL: 'https://www.trucolors.co',
 			workLocation: 'Wilmington, NC',
