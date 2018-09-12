@@ -392,8 +392,6 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 });
 
-
-
 /* JQuery code for the smooth scrolling on nav item clicks */
 
 $("#topcontrol").click(function() {
@@ -462,7 +460,6 @@ $('#navigation').click(function() {
 })
 
 // Code for portfolio modal's
-
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 })
