@@ -12,17 +12,17 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for development skills
     $scope.developmentSkills = [
-    	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'Analytics', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Open Graph', 'RWD'
+    	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'React-Native', 'Redux', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'Analytics', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Open Graph', 'RWD'
     ];
 
 // Array for design skills
     $scope.designSkills = [
-    	'Photoshop', 'Illustrator', 'InDesign', 'Sketch'
+    	'Photoshop', 'Illustrator', 'InDesign', 'XD', 'Sketch'
     ];
 
 // Array for design skills
     $scope.otherSkills = [
-    	'Slack', 'MS Office', 'Automotive', 'Logistics'
+    	'Slack', 'MS Office', 'Automotive', 'Logistics',
     ];
 
 // Array for Work Experience
@@ -108,10 +108,28 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Projects array to display images and info. Modal info is located in index.html
     $scope.projects = [
+      {
+  			title: 'BMT Micro, Inc.',
+  			image: './images/bmt-help-screenshot.png',
+  			url: 'https://help.bmtmicro.com/vendors',
+  			category: ['development', 'design'],
+  		// next lines are to handle the pop-up modals
+  			modalName: 'BmtHelpModalCenter',
+  		// Just add 'Title' to modalName
+  			modalCenterTitle: 'BmtHelpModalCenterTitle',
+  		// remove 'Center', add 'Long'
+  			modalLongTitle: 'BmtHelpModalLongTitle',
+  		// title to display in the modal
+  			modalTitleName: 'BMT Micro Help Page',
+  		// body inside the modal
+  			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section that was recreated in Wordpress.',
+  		// handles the link description in modal
+  			modalViewType: 'Website'
+  		},
 		{
 			title: 'TRU Colors Brewing Co.',
 			image: './images/tcb_screenshot.png',
-			url: 'https://www.trucolors.co',
+			url: 'https://jeffberlin.github.io/Tru_Colors_Brewing_updated/public',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
 			modalName: 'TruColorsSiteModalCenter',
