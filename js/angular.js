@@ -76,6 +76,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for Education
 	$scope.education = [
+    {
+			schoolName: 'Udacity',
+			schoolURL: 'https://www.udacity.com/course/react-nanodegree--nd019',
+			course: 'React Development - Nanodegree',
+			date: 'June 2018 - October 2018',
+			courseInfo: 'Learning the in\'s and out\'s of the React framework and then we will be learning Redux and React Native through this course.'
+		},
 		{
 			schoolName: 'Udacity',
 			schoolURL: 'https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001',
@@ -84,48 +91,52 @@ app.controller('resumeCtrl', function($scope, $document) {
 			courseInfo: 'Through this Front-end Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing.'
 		},
 		{
-			schoolName: 'Udacity',
-			schoolURL: 'https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004',
-			course: 'Full Stack Development - Nanodegree',
-			date: 'In Progress',
-			courseInfo: 'This online programming course gave me experience working with Python, SQL, and Postgres.'
-		},
-		{
-			schoolName: 'Udacity',
-			schoolURL: 'https://www.udacity.com',
-			course: 'React Development - Nanodegree',
-			date: 'In Progress',
-			courseInfo: 'Learning the in\'s and out\'s of the React framework and then we will be learning Redux and React Native through this course.'
-		},
-		{
 			schoolName: 'Horry-Georgetown Technical College',
 			schoolURL: '',
 			course: 'Digital Arts, A.S.',
-			date: 'In Progress',
+			date: 'January 2016 - January 2017',
 			courseInfo: 'After taking a few graphic design classes, I became familiar with programs that include Adobe Photoshop, Illustrator, InDesign, and Sketch. These courses lead to my interest in learning how to code.'
 		}
 	];
 
 // Projects array to display images and info. Modal info is located in index.html
-    $scope.projects = [
-      {
-  			title: 'BMT Micro, Inc.',
-  			image: './images/bmt-help-screenshot.png',
-  			url: 'https://help.bmtmicro.com/vendors',
-  			category: ['development', 'design'],
-  		// next lines are to handle the pop-up modals
-  			modalName: 'BmtHelpModalCenter',
-  		// Just add 'Title' to modalName
-  			modalCenterTitle: 'BmtHelpModalCenterTitle',
-  		// remove 'Center', add 'Long'
-  			modalLongTitle: 'BmtHelpModalLongTitle',
-  		// title to display in the modal
-  			modalTitleName: 'BMT Micro Help Page',
-  		// body inside the modal
-  			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section that was recreated in Wordpress.',
-  		// handles the link description in modal
-  			modalViewType: 'Website'
-  		},
+  $scope.projects = [
+    {
+			title: 'BMT Micro, Inc.',
+			image: './images/bmt-help-screenshot.png',
+			url: 'https://help.bmtmicro.com/vendors',
+			category: ['development', 'design'],
+		// next lines are to handle the pop-up modals
+			modalName: 'BmtHelpModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'BmtHelpModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'BmtHelpModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'BMT Micro Help Page',
+		// body inside the modal
+			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section that was recreated in Wordpress.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+		},
+    {
+			title: 'BMT Micro, Inc. Email',
+			image: './images/bmt-email-screenshot',
+			url: 'https://jeffberlin.github.io/bmt-email/index.html',
+			category: ['development', 'design'],
+		// next lines are to handle the pop-up modals
+			modalName: 'BmtEmailModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'BmtEmailModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'BmtEmailModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'BMT Micro Email Responses',
+		// body inside the modal
+			modalBody: 'This project is an HTMl email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+		},
 		{
 			title: 'TRU Colors Brewing Co.',
 			image: './images/tcb_screenshot.png',
