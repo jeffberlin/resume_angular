@@ -227,6 +227,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
+    {
+			title: 'TCB Brochure',
+			image: './images/tcb_brochure.png',
+			url: './images/tru-colors-brochure.pdf',
+			category: 'design',
+		// next lines are to handle the pop-up modals
+			modalName: 'tcbBrochureModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'tcbBrochureModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'tcbBrochureModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'TRU Colors Brewing Brochure',
+		// body inside the modal
+			modalBody: 'Created this company brochure to provide additional information about TRU Colors Brewing. This was made using Adobe InDesign and Photoshop.',
+		// handles the link description in modal
+			modalViewType: 'PDF'
+		},
 		{
 			title: 'JOMO Charlotte Giveaway',
 			image: './images/jomo_charlotte_screenshot.png',
@@ -317,43 +335,8 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
-		{
-			title: 'TCB Brochure',
-			image: './images/tcb_brochure.png',
-			url: './images/tru-colors-brochure.pdf',
-			category: 'design',
-		// next lines are to handle the pop-up modals
-			modalName: 'tcbBrochureModalCenter',
-		// Just add 'Title' to modalName
-			modalCenterTitle: 'tcbBrochureModalCenterTitle',
-		// remove 'Center', add 'Long'
-			modalLongTitle: 'tcbBrochureModalLongTitle',
-		// title to display in the modal
-			modalTitleName: 'TRU Colors Brewing Brochure',
-		// body inside the modal
-			modalBody: 'Created this company brochure to provide additional information about TRU Colors Brewing. This was made using Adobe InDesign and Photoshop.',
-		// handles the link description in modal
-			modalViewType: 'PDF'
-		},
-		{
-			title: 'Movie Trailers',
-			image: './images/movie_trailers_screenshot.png',
-			url: 'https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
-			category: 'development',
-		// next lines are to handle the pop-up modals
-			modalName: 'movieTrailerModalCenter',
-		// Just add 'Title' to modalName
-			modalCenterTitle: 'movieTrailerModalCenterTitle',
-		// remove 'Center', add 'Long'
-			modalLongTitle: 'movieTrailerModalLongTitle',
-		// title to display in the modal
-			modalTitleName: 'Movie Trailer Website',
-		// body inside the modal
-			modalBody: 'A project that was completed for the Udacity Full Stack Development course that display my 6 favorite movies and their movie trailers. Built using HTML, CSS, Bootstrap, Python, and YouTube video embedding.',
-		// handles the link description in modal
-			modalViewType: 'Website'
-		},
-		{
+
+    {
 			title: 'Appalachian Slab & Timber',
 			image: './images/app_st_logo.png',
 			url: './images/applogo.jpg',
@@ -386,6 +369,42 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalTitleName: 'Appalachian Slab & Timber Branding Logo',
 		// body inside the modal
 			modalBody: 'This logo will be used by a North Carolina timber company to brand their logs. I created this logo using Adobe Illustrator and Photoshop.',
+		// handles the link description in modal
+			modalViewType: 'Image'
+		},
+		{
+			title: 'Movie Trailers',
+			image: './images/movie_trailers_screenshot.png',
+			url: 'https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
+			category: 'development',
+		// next lines are to handle the pop-up modals
+			modalName: 'movieTrailerModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'movieTrailerModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'movieTrailerModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Movie Trailer Website',
+		// body inside the modal
+			modalBody: 'A project that was completed for the Udacity Full Stack Development course that display my 6 favorite movies and their movie trailers. Built using HTML, CSS, Bootstrap, Python, and YouTube video embedding.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+		},
+    {
+			title: 'Wilmington Brew Logo',
+			image: './images/ilm_brew_logo-400.png',
+			url: './images/ilm_brew_logo.jpg',
+			category: 'design',
+		// next lines are to handle the pop-up modals
+			modalName: 'ilmBrewModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'ilmBrewCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'ilmBrewModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Wilmington Breweries Logo',
+		// body inside the modal
+			modalBody: 'A logo for a project website that I created. This was created using Adobe Photoshop and Sketch.',
 		// handles the link description in modal
 			modalViewType: 'Image'
 		},
@@ -425,24 +444,6 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
-		{
-			title: 'Wilmington Brew Logo',
-			image: './images/ilm_brew_logo-400.png',
-			url: './images/ilm_brew_logo.jpg',
-			category: 'design',
-		// next lines are to handle the pop-up modals
-			modalName: 'ilmBrewModalCenter',
-		// Just add 'Title' to modalName
-			modalCenterTitle: 'ilmBrewCenterTitle',
-		// remove 'Center', add 'Long'
-			modalLongTitle: 'ilmBrewModalLongTitle',
-		// title to display in the modal
-			modalTitleName: 'Wilmington Breweries Logo',
-		// body inside the modal
-			modalBody: 'A logo for a project website that I created. This was created using Adobe Photoshop and Sketch.',
-		// handles the link description in modal
-			modalViewType: 'Image'
-		}
 
 	];
 
