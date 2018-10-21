@@ -335,7 +335,6 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
-
     {
 			title: 'Appalachian Slab & Timber',
 			image: './images/app_st_logo.png',
