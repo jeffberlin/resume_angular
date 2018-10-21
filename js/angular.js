@@ -120,9 +120,27 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalViewType: 'Website'
 		},
     {
+			title: 'Would You Rather',
+			image: './images/would-you-rather-screenshot',
+			url: './would-you-rather.html',
+			category: ['development', 'design'],
+		// next lines are to handle the pop-up modals
+			modalName: 'WouldYouModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'WouldYouModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'WouldYouModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Would You Rather React-Redux Project (Udacity)',
+		// body inside the modal
+			modalBody: 'Would You Rather was a Udacity React course project that allows users (in their backend server) to ask a "Would You Rather..." question with 2 options, answer the questions, see the votes for each question, and to view the leaderboard of the users. This was created using React, Redux, and Material-UI.',
+		// handles the link description in modal
+			modalViewType: 'Demo'
+		},
+    {
 			title: 'BMT Micro, Inc. Email',
 			image: './images/bmt-email-screenshot',
-			url: 'https://jeffberlin.github.io/bmt-email/index.html',
+			url: 'https://jeffberlin.github.io/bmt-email/original.html',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
 			modalName: 'BmtEmailModalCenter',
@@ -135,7 +153,43 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'This project is an HTMl email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.',
 		// handles the link description in modal
-			modalViewType: 'Website'
+			modalViewType: 'in Browser'
+		},
+    // {
+		// 	title: 'UdaciCards React Native',
+		// 	image: './images/',
+		// 	url: '',
+		// 	category: ['development', 'design'],
+		// // next lines are to handle the pop-up modals
+		// 	modalName: 'UdaciCardsModalCenter',
+		// // Just add 'Title' to modalName
+		// 	modalCenterTitle: 'UdaciCardsModalCenterTitle',
+		// // remove 'Center', add 'Long'
+		// 	modalLongTitle: 'UdaciCardsModalLongTitle',
+		// // title to display in the modal
+		// 	modalTitleName: 'UdaciCards React Native Project (Udacity)',
+		// // body inside the modal
+		// 	modalBody: '',
+		// // handles the link description in modal
+		// 	modalViewType: 'Website'
+		// },
+    {
+			title: 'MyReads React',
+			image: './images/my-reads-screenshot',
+			url: './myreads.html',
+			category: ['development'],
+		// next lines are to handle the pop-up modals
+			modalName: 'MyReadsModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'MyReadsModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'MyReadsModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'MyReads React Project (Udacity)',
+		// body inside the modal
+			modalBody: 'MyReads was a Udacity React course project that displays books (from their backend server) that allow you to change their status and search for new books!',
+		// handles the link description in modal
+			modalViewType: 'Demo'
 		},
 		{
 			title: 'TRU Colors Brewing Co.',
