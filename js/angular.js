@@ -28,7 +28,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Array for Work Experience
 	$scope.workExperience = [
     {
-      jobTitle: 'Programmer',
+      jobTitle: 'Web Developer',
       workDate: 'April 2018 - Present',
       company: 'BMT Micro, Inc.',
       companyURL: 'https://www.bmtmicro.com',
