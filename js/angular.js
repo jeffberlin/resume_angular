@@ -138,6 +138,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalViewType: 'Demo'
 		},
     {
+			title: 'UdaciCards',
+			image: './images/',
+			url: '',
+			category: ['development', 'design'],
+		// next lines are to handle the pop-up modals
+			modalName: 'UdaciCardsModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'UdaciCardsModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'UdaciCardsModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'UdaciCards React Native Project (Udacity)',
+		// body inside the modal
+			modalBody: '',
+		// handles the link description in modal
+			modalViewType: 'Demo'
+		},
+    {
 			title: 'BMT Micro, Inc. Email',
 			image: './images/bmt-email-screenshot',
 			url: 'https://jeffberlin.github.io/bmt-email/original.html',
@@ -155,24 +173,6 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// handles the link description in modal
 			modalViewType: 'in Browser'
 		},
-    // {
-		// 	title: 'UdaciCards React Native',
-		// 	image: './images/',
-		// 	url: '',
-		// 	category: ['development', 'design'],
-		// // next lines are to handle the pop-up modals
-		// 	modalName: 'UdaciCardsModalCenter',
-		// // Just add 'Title' to modalName
-		// 	modalCenterTitle: 'UdaciCardsModalCenterTitle',
-		// // remove 'Center', add 'Long'
-		// 	modalLongTitle: 'UdaciCardsModalLongTitle',
-		// // title to display in the modal
-		// 	modalTitleName: 'UdaciCards React Native Project (Udacity)',
-		// // body inside the modal
-		// 	modalBody: '',
-		// // handles the link description in modal
-		// 	modalViewType: 'Website'
-		// },
     {
 			title: 'MyReads React',
 			image: './images/my-reads-screenshot',
