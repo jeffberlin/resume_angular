@@ -102,6 +102,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'BMT Micro Catalog',
+      image: './images/bmt-catalog-screenshot.jpg',
+      url: 'https://www.bmtmicro.com/bmtcatalog',
+      category: ['development', 'design'],
+    // next lines are to handle the pop-up modals
+			modalName: 'BmtCatalogModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'BmtCatalogModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'BmtCatalogModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'BMT Micro Product Catalog',
+		// body inside the modal
+			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned product catalog that also displays company information. This site was recreated using HTML, CSS, Bootstrap, JavaScript, JQuery, and AngularJS.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+    },
+    {
 			title: 'BMT Micro, Inc.',
 			image: './images/bmt-help-screenshot.png',
 			url: 'https://help.bmtmicro.com/vendors',
@@ -137,24 +155,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// handles the link description in modal
 			modalViewType: 'Demo'
 		},
-    {
-			title: 'UdaciCards',
-			image: './images/',
-			url: '',
-			category: ['development', 'design'],
-		// next lines are to handle the pop-up modals
-			modalName: 'UdaciCardsModalCenter',
-		// Just add 'Title' to modalName
-			modalCenterTitle: 'UdaciCardsModalCenterTitle',
-		// remove 'Center', add 'Long'
-			modalLongTitle: 'UdaciCardsModalLongTitle',
-		// title to display in the modal
-			modalTitleName: 'UdaciCards React Native Project (Udacity)',
-		// body inside the modal
-			modalBody: '',
-		// handles the link description in modal
-			modalViewType: 'Demo'
-		},
+    // {
+		// 	title: 'UdaciCards',
+		// 	image: './images/',
+		// 	url: '',
+		// 	category: ['development', 'design'],
+		// // next lines are to handle the pop-up modals
+		// 	modalName: 'UdaciCardsModalCenter',
+		// // Just add 'Title' to modalName
+		// 	modalCenterTitle: 'UdaciCardsModalCenterTitle',
+		// // remove 'Center', add 'Long'
+		// 	modalLongTitle: 'UdaciCardsModalLongTitle',
+		// // title to display in the modal
+		// 	modalTitleName: 'UdaciCards React Native Project (Udacity)',
+		// // body inside the modal
+		// 	modalBody: '',
+		// // handles the link description in modal
+		// 	modalViewType: 'Demo'
+		// },
     {
 			title: 'BMT Micro, Inc. Email',
 			image: './images/bmt-email-screenshot',
