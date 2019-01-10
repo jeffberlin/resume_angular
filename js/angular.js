@@ -120,7 +120,25 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalViewType: 'Website'
     },
     {
-			title: 'BMT Micro, Inc.',
+			title: 'BMT Micro Customer Help',
+			image: './images/bmt-customer-help-screenshot.jpg',
+			url: 'https://help.bmtmicro.com/customers',
+			category: ['development', 'design'],
+		// next lines are to handle the pop-up modals
+			modalName: 'BmtCustomerHelpModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'BmtCustomerHelpModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'BmtCustomerHelpModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'BMT Micro Customer Help Page',
+		// body inside the modal
+			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section for customers that was recreated in Wordpress.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+		},
+    {
+			title: 'BMT Micro Vendor Help',
 			image: './images/bmt-help-screenshot.png',
 			url: 'https://help.bmtmicro.com/vendors',
 			category: ['development', 'design'],
@@ -131,7 +149,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// remove 'Center', add 'Long'
 			modalLongTitle: 'BmtHelpModalLongTitle',
 		// title to display in the modal
-			modalTitleName: 'BMT Micro Help Page',
+			modalTitleName: 'BMT Micro Vendor Help Page',
 		// body inside the modal
 			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section that was recreated in Wordpress.',
 		// handles the link description in modal
