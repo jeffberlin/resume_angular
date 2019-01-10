@@ -175,7 +175,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// },
     {
 			title: 'BMT Micro, Inc. Email',
-			image: './images/bmt-email-screenshot',
+			image: './images/bmt-email-screenshot.png',
 			url: 'https://jeffberlin.github.io/bmt-email/original.html',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
